@@ -1,0 +1,4181 @@
+/* XL (laptop) Device :1200px. */
+@media (min-width: 1200px) and (max-width: 1500px) {
+    
+}
+@media (min-width: 1200px) and (max-width: 1300px) {
+   
+}
+/* LG Device :992px. */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    body{
+        overflow-x: hidden !important;
+    }
+    /*-- heder top area --*/
+
+    #mainHeaderTop .mainHeaderTopRight .beforeLogin a {
+        width: 100%;
+        padding: 10px 0px;
+        text-align: center;
+    }
+    #mainHeaderTop .mainHeaderTopRight .afterLogin ul li {
+        position: relative;
+        margin-left: -8px;
+    }
+    #mainHeaderTop .menuHeader .nav ul li .megaMenuTop3 .container {
+        padding: 0px 180px;
+    }
+    #mainHeaderTop .menuHeader .nav ul li .megaMenuTop2 .container {
+        padding: 0px 120px;
+    }
+    #mainHeaderTop .menuHeader .nav ul li .megaMenuTop .megaMenuTopItem a .subMegaMenuItem p {
+        font-size: 13px;
+        width: 119%;
+        line-height: 21px;
+    }
+    #banar {
+        padding-top: 55px;
+    }
+    #goals_main .goals_main_item .content h3 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+    #goals_main .goals_main_item .content p {
+        margin-top: 8px;
+        font-size: 12px;
+    }
+    #goals_main .goals_main_item {
+        min-height: 321px;
+    }
+    #main_footer_top .footer_info .info ul li img {
+        margin-right: 15px;
+        margin-bottom: 31px;
+    }
+    #main_footer_top .footer_info .info ul li {
+        font-size: 13px;
+        line-height: 24px;
+    }
+    #main_footer_top .footer_link {
+        padding-left: 0px;
+    }
+    #main_footer_top .footer_link .footer_link_item ul li a {
+        font-size: 13px;
+    }
+    #main_footer_top .social .download_area ul li a img {
+        height: 37px;
+    }
+    #main_footer_top .social .download_area ul li a {
+        margin-right: 10px;
+    }
+
+    /*-- single goal page --*/
+    #masterClass .masterClass_main .masterClass_main_item .content .content_left h5 {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    #masterClass .masterClass_main .masterClass_main_item .content .content_right h5 {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    #masterClass .masterClass_main .masterClass_main_item .content .content_right h5 a {
+        left: -5px;
+        display: block;
+        float: right;
+        margin-top: 11px;
+    }
+
+    /*-- single badge page --*/
+    #badge_single_goals .badge_single_goals_item p {
+        font-size: 11px;
+        font-weight: 500;
+    }
+    #singleGoal_banar .singleGoal_banar_content_main {
+        padding: 19px 0px;
+    }
+    /*-- single master class -*/
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .top .left h3 {
+        font-size: 20px;
+        margin-top: 5px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .top .left p {
+        font-size: 13px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .before_buy_class .sloat ul li a {
+        width: 116px;
+        margin-right: 10px;
+        font-size: 14px;
+        padding: 8px 0px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .before_buy_class .book_btn ul .btn_1 a {
+        width: 291px !important;
+    }
+    #masterClassSkillPage .skill_1 ul li {
+        min-width: 192px;
+        margin-right: 7px;
+        padding: 4px 17px 3px 5px;
+    }
+
+    /*-- this is for all popup --*/
+
+    /*-- sing up popup --*/
+    #signUpPopup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #signUpPopup::-webkit-scrollbar {
+      display: none;
+    }
+    #signUpPopup::-moz-scrollbar {
+      display: none;
+    }
+    #signUpPopup::-o-scrollbar {
+      display: none;
+    }
+    #signUpPopup::-ms-scrollbar {
+      display: none;
+    }
+    /*-- otp auth popup --*/
+    #otp_popup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #otp_popup::-webkit-scrollbar {
+      display: none;
+    }
+    #otp_popup::-moz-scrollbar {
+      display: none;
+    }
+    #otp_popup::-o-scrollbar {
+      display: none;
+    }
+    #otp_popup::-ms-scrollbar {
+      display: none;
+    }
+    /*-- signinConfirmation popup --*/
+    #signinConfirmation_popup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #signinConfirmation_popup::-webkit-scrollbar {
+      display: none;
+    }
+    #signinConfirmation_popup::-moz-scrollbar {
+      display: none;
+    }
+    #signinConfirmation_popup::-o-scrollbar {
+      display: none;
+    }
+    #signinConfirmation_popup::-ms-scrollbar {
+      display: none;
+    }
+
+    /*-- signinConfirmation popup --*/
+    #bookClassInsufficant{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #bookClassInsufficant::-webkit-scrollbar {
+      display: none;
+    }
+    #bookClassInsufficant::-moz-scrollbar {
+      display: none;
+    }
+    #bookClassInsufficant::-o-scrollbar {
+      display: none;
+    }
+    #bookClassInsufficant::-ms-scrollbar {
+      display: none;
+    }
+
+    /*-- signinConfirmation popup --*/
+    #joinClassPopup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 150px;
+        padding-bottom: 50px;
+    }
+    #joinClassPopup::-webkit-scrollbar {
+      display: none;
+    }
+    #joinClassPopup::-moz-scrollbar {
+      display: none;
+    }
+    #joinClassPopup::-o-scrollbar {
+      display: none;
+    }
+    #joinClassPopup::-ms-scrollbar {
+      display: none;
+    }
+
+    /*-- badgePopup popup --*/
+    #badgePopup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #badgePopup::-webkit-scrollbar {
+      display: none;
+    }
+    #badgePopup::-moz-scrollbar {
+      display: none;
+    }
+    #badgePopup::-o-scrollbar {
+      display: none;
+    }
+    #badgePopup::-ms-scrollbar {
+      display: none;
+    }
+    
+    
+    #earndPointPopup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #earndPointPopup::-webkit-scrollbar {
+      display: none;
+    }
+    #earndPointPopup::-moz-scrollbar {
+      display: none;
+    }
+    #earndPointPopup::-o-scrollbar {
+      display: none;
+    }
+    #earndPointPopup::-ms-scrollbar {
+      display: none;
+    }
+    #whatStudentCreate .whatStudentCreateSlider .slick-next {
+        position: absolute;
+        bottom: 77px;
+        right: 38%;
+        height: 34px;
+        width: 34px;
+        background: #F6F6F6;
+        border-radius: 50%;
+        border: none;
+        z-index: 9999999;
+        outline: none;
+        font-size: 23px;
+        transition: 0.4s;
+    }
+    #whatStudentCreate .whatStudentCreateSlider .slick-prev {
+        position: absolute;
+        bottom: 77px;
+        height: 34px;
+        width: 34px;
+        background: #F6F6F6;
+        border-radius: 50%;
+        border: none;
+        z-index: 9999999;
+        outline: none;
+        font-size: 23px;
+        transition: 0.4s;
+    }
+    #whatStudentCreate .whatStudentCreateSlider .whatStudentCreateSliderItem.slick-current.slick-active.slick-center:after {
+        border: 6px solid #000;
+    }
+
+    #parrentsFeedback .parrentsFeedbackMain .parrentsFeedbackMainSlider .parrentsFeedbackItem .left {
+        padding: 22px 19px;
+    }
+
+    #parrentsFeedback .parrentsFeedbackMain .parrentsFeedbackMainSlider .parrentsFeedbackItem .left p {
+        font-size: 13px;
+        line-height: 23px;
+        margin-bottom: 20px;
+        padding-left: 20px;
+    }
+    #parrentsFeedback .parrentsFeedbackMain .parrentsFeedbackMainSlider .parrentsFeedbackItem .left h5 {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    #memberShipPlanSection .priceTable .item .feater ul h5 {
+        font-size: 13px;
+    }
+    #programsBenifit .title p {
+        width: 57%;
+    }
+    #programDetailsLearn .middle ul li img {
+        height: 71px;
+    }
+    #programMainprogrmaBanar .content .performance .perSkills ul li {
+        margin-bottom: 16px;
+    }
+    #classScheduleArea .classScheduleAreaMain #accordion .classScheduleItem .classSceduleContent .item .right ul li a {
+        font-size: 14px;
+        margin-left: 65px;
+        min-width: 195px;
+    }
+    #classScheduleArea .classScheduleAreaMain #accordion .classScheduleItem .classSceduleContent .item .right ul li .confirmBy {
+        margin-left: 32px;
+    }
+    #programsProject .programsProjectMain .programsProjectMainSlider .programsProjectMainSliderItem img {
+        width: 100%;
+    }
+    #classDetailsNewHeader .right .profile {
+        padding-left: 17px;
+    }
+
+    .scree4Content .top {
+        margin-top: 4px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .scree11Content .top {
+        width: 100%;
+    }
+    .scree11Content .quizContainer {
+        width: 100%;
+    }
+    #profilePageMainContent .rightPanel .profilePortfolio .content .profilePortfolioItem .itemContent h4 {
+        font-size: 18px;
+        width: 57%;
+        line-height: 23px;
+    }
+    #merketingHowItswork .realworldGoals .realworldGoalsMain .realworldGoalsMainItem2 {
+        padding: 79px 10px;
+        min-height: 236px;
+    }
+    #attendMasterClassArea .attendMasterClassMain .attendMasterClassMainItem2 {
+        padding: 68px 10px;
+        min-height: 204px;
+    }
+    #developeExpertise .developeExpertiseMain .developeExpertiseMainItem2 {
+        padding: 59px 10px;
+        min-height: 203px;
+    }
+    #programingEarnBadge .programingEarnBadgeMain .programingEarnBadgeMainItem2 {
+        padding: 65px 10px;
+        min-height: 194px;
+    }
+    #programingEarnBadge .programingEarnBadgeMain .programingEarnBadgeMainItem .content h4 {
+        font-size: 15px;
+    }
+    #aboutPageMain .aboutPageMainContainer #imagePatern {
+        top: 46%;
+        left: 50%;
+        height: 69%;
+    }
+    #aboutPageAboutSlider .aboutPageAboutSliderActive .aboutPageAboutSliderItem p {
+        min-height: 276px;
+    }
+    #checkoutConfirmation .checkoutConfirmationContainer {
+        width: 100%;
+    }
+    #leaderboardMainContentArea .leaderBoardTanMainContent .leaderboardSubtabHeader .nav li a {
+        font-size: 12px;
+        padding: 6px 20px;
+        margin: 0px 3px;
+    }
+    #refferal1MainArea .refferal1MainAreaContiner {
+        width: 100%;
+    }
+    #testmonilPageMainContent .testmonilPageMainContentItem p {
+        min-height: 146px;
+        line-height: 21px;
+        font-size: 12px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+    .show_tab{
+        display: block !important;
+    }
+    .hide_tab{
+        display: none !important;
+    }
+    #banar {
+        padding: 47px 0px;
+        padding-bottom: 100px;
+    }
+    #banar .banar_content p {
+        width: 74%;
+    }
+
+     /*-- single goal page --*/
+    #singleGoal_banar {
+        padding: 19px 0px 5px 0px;
+    }
+    
+    #singleGoal_banar .singleGoal_banar_content_main h3 {
+        font-size: 27px;
+    }
+    #singleGoal_banar .singleGoal_banar_content_main h5 {
+        margin-top: 11px;
+        font-size: 14px;
+    }
+    #singleGoal_banar .singleGoal_banar_content_main p {
+        width: 62%;
+        font-size: 15px;
+        line-height: 23px;
+    }
+    #badge_single_goals .badge_single_goals_item p {
+        font-size: 14px;
+        margin-top: 15px;
+        font-weight: 500;
+        line-height: 18px;
+    }
+    #masterClass .masterClass_main .masterClass_main_item .content .content_right h5 a {
+        left: -5px;
+        display: block;
+        float: right;
+        margin-top: 25px;
+    }
+    #mastaerClass_program .mastaerClass_program_main .mastaerClass_program_main_item .image .info h3 {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    
+    /*-- single badge --*/
+    #singleGoal_banar .singleGoal_banar_content_main {
+        padding: 21px 0px 30px 0px;
+    }
+    #singleGoal_banar {
+        padding: 19px 0px 25px 0px;
+    }
+    #badge_single_goals .badge_single_goals_item p {
+        font-size: 10px;
+        margin-top: 15px;
+        font-weight: 600;
+        line-height: 16px;
+    }
+
+    /*-- master clas  --*/
+    #masterClass_banar {
+        padding: 30px 0px 50px 0px;
+    }
+    #masterClass_banar .masterClass_banar_content h3 {
+        font-size: 30px;
+    }
+    #masterClass_banar .masterClass_banar_content p {
+        font-size: 14px;
+    }
+    .masterClass_scroll_item_1_main_item {
+        margin-bottom: 30px;
+    }
+    .masterClass_scroll_item_1_class .masterClass_scroll_item_1_main .masterClass_scroll_item_1_main_item .content .content_right h5 a {
+        position: relative;
+        left: 7px;
+        display: block;
+        float: right;
+    }
+    /*-- single master clas  --*/
+    #singleMasterClassPageBanar .singleMasterClassPageBanarTop .singleMasterClassPageBanarTopLeft h3 {
+        font-size: 27px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarTop .singleMasterClassPageBanarTopLeft p {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .top .left h3 {
+        font-size: 19px;
+        line-height: 25px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .before_buy_class .sloat ul li a {
+        width: 85px;
+        margin-right: 4px;
+        font-size: 14px;
+        padding: 5px 0px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .before_buy_class .class_fee ul .btn_1 a {
+        padding: 13px 24px;
+        border-radius: 5px;
+        font-size: 15px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .before_buy_class .class_fee ul .btn_2 a {
+        margin-left: 8px;
+        font-size: 14px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .before_buy_class .book_btn ul .btn_1 a {
+        width: 182px !important;
+        padding: 10px 0px;
+        color: #fff;
+        font-size: 11px;
+        padding-bottom: 15px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .before_buy_class .book_btn ul .btn_2 a {
+        padding: 6px 20px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomvideo .video-js {
+        width: 110%;
+        height: 317px;
+        cursor: none;
+    }
+    #masterClassSkillPage .skill_1 ul li {
+        position: relative;
+        display: inline-block;
+        min-width: 167px;
+        border: 2px solid #CBD8DB;
+        margin-right: 1px;
+        padding: 1px 3px 1px 2px;
+        border-radius: 30px;
+        margin-bottom: 20px;
+    }
+    #masterClassSkillPage .skill_2 .skill_2_slider .skill_2_slider_item {
+        padding: 15px 10px 24px 4px;
+        font-size: 11px;
+        color: #262525;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .after_buy_class .top .btn_1 a {
+        margin-bottom: 11px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .after_buy_class .bottom .invite_btn a {
+        margin-top: 10px;
+    }
+
+    /*-- class attend --*/
+    #attendClassRettig .right ul li {
+        margin-right: 10px;
+    }
+    #attendClassRettig .right ul li img{
+        height: 35px;
+    }
+    #attendCLassInviteFriend .classAssignment .main .item .item_info h3 {
+        font-size: 16px;
+    }
+    #attendCLassInviteFriend .classAssignment .main .item .item_info {
+        padding-left: 52px;
+    }
+
+    /*-- class submission --*/
+    .classSubmissionMainContainer .comon_bred_come ul li {
+        font-size: 13px;
+    }
+    #classSubmissionMain .classSubmissionMainContainer .top h3 {
+        font-size: 26px;
+    }
+    #classSubmissionMain .classSubmissionMainContainer .top h4 {
+        width: 228px;
+        font-size: 15px;
+    }
+    #classSubmissionMain .classSubmissionMainContainer .submission_file_assignment .top h3 {
+        width: 271px;
+        font-size: 14px;
+    }
+    
+    /*-- sing up popup --*/
+    #signUpPopup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #signUpPopup::-webkit-scrollbar {
+      display: none;
+    }
+    #signUpPopup::-moz-scrollbar {
+      display: none;
+    }
+    #signUpPopup::-o-scrollbar {
+      display: none;
+    }
+    #signUpPopup::-ms-scrollbar {
+      display: none;
+    }
+    /*-- otp auth popup --*/
+    #otp_popup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #otp_popup::-webkit-scrollbar {
+      display: none;
+    }
+    #otp_popup::-moz-scrollbar {
+      display: none;
+    }
+    #otp_popup::-o-scrollbar {
+      display: none;
+    }
+    #otp_popup::-ms-scrollbar {
+      display: none;
+    }
+    /*-- signinConfirmation popup --*/
+    #signinConfirmation_popup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #signinConfirmation_popup::-webkit-scrollbar {
+      display: none;
+    }
+    #signinConfirmation_popup::-moz-scrollbar {
+      display: none;
+    }
+    #signinConfirmation_popup::-o-scrollbar {
+      display: none;
+    }
+    #signinConfirmation_popup::-ms-scrollbar {
+      display: none;
+    }
+    /*-- bookClassPopup popup --*/
+    #bookClassPopup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #bookClassPopup::-webkit-scrollbar {
+      display: none;
+    }
+    #bookClassPopup::-moz-scrollbar {
+      display: none;
+    }
+    #bookClassPopup::-o-scrollbar {
+      display: none;
+    }
+    #bookClassPopup::-ms-scrollbar {
+      display: none;
+    }
+    /*-- signinConfirmation popup --*/
+    #bookClassInsufficant{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #bookClassInsufficant::-webkit-scrollbar {
+      display: none;
+    }
+    #bookClassInsufficant::-moz-scrollbar {
+      display: none;
+    }
+    #bookClassInsufficant::-o-scrollbar {
+      display: none;
+    }
+    #bookClassInsufficant::-ms-scrollbar {
+      display: none;
+    }
+    /*-- signinConfirmation popup --*/
+    #joinClassPopup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 150px;
+        padding-bottom: 50px;
+    }
+    #joinClassPopup::-webkit-scrollbar {
+      display: none;
+    }
+    #joinClassPopup::-moz-scrollbar {
+      display: none;
+    }
+    #joinClassPopup::-o-scrollbar {
+      display: none;
+    }
+    #joinClassPopup::-ms-scrollbar {
+      display: none;
+    }
+    /*-- badgePopup popup --*/
+    #badgePopup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #badgePopup::-webkit-scrollbar {
+      display: none;
+    }
+    #badgePopup::-moz-scrollbar {
+      display: none;
+    }
+    #badgePopup::-o-scrollbar {
+      display: none;
+    }
+    #badgePopup::-ms-scrollbar {
+      display: none;
+    }
+    #earndPointPopup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 150px;
+        padding-bottom: 50px;
+    }
+    #earndPointPopup::-webkit-scrollbar {
+      display: none;
+    }
+    #earndPointPopup::-moz-scrollbar {
+      display: none;
+    }
+    #earndPointPopup::-o-scrollbar {
+      display: none;
+    }
+    #earndPointPopup::-ms-scrollbar {
+      display: none;
+    }
+#whatStudentCreate .whatStudentCreateSlider .slick-next {
+        position: absolute;
+        bottom: 77px;
+        right: 37%;
+        height: 34px;
+        width: 34px;
+        background: #F6F6F6;
+        border-radius: 50%;
+        border: none;
+        z-index: 9999999;
+        outline: none;
+        font-size: 23px;
+        transition: 0.4s;
+    }
+    #whatStudentCreate .whatStudentCreateSlider .slick-prev {
+        position: absolute;
+        bottom: 77px;
+        height: 34px;
+        width: 34px;
+        background: #F6F6F6;
+        border-radius: 50%;
+        border: none;
+        z-index: 9999999;
+        outline: none;
+        font-size: 23px;
+        transition: 0.4s;
+        left: 37%;
+    }
+    #whatStudentCreate .whatStudentCreateSlider .whatStudentCreateSliderItem.slick-current.slick-active.slick-center:after {
+        border: 6px solid #000;
+    }
+
+    #programpPagebanar {
+        padding: 13px 0px 90px 0px;
+    }       
+    #programpPagebanar .content p {
+        font-size: 16px;
+        width: 68%;
+    }
+    #programpPagebanar .content a {
+        padding: 9px 49px;
+        padding-bottom: 17px;
+        font-size: 13px;
+    }
+    #mainPogramDetailsBanar .mainContent .left h3 {
+        font-size: 26px;
+        line-height: 33px;
+    }
+    #mainPogramDetailsBanar .mainContent .left p {
+        margin-bottom: 18px;
+    }
+    #mainPogramDetailsBanar .mainContent .left a {
+        width: 155px;
+        height: 42px;
+        line-height: 36px;
+        font-size: 12px;
+        margin-right: 6px;
+    }
+    #programDetailsLearn .top ul li {
+        padding: 6px 14px;
+        font-size: 12px;
+        margin-right: 12px;
+    }
+    #programDetailsLearn .middle ul li img {
+        height: 63px;
+    }
+    #programDetailsLearn .bottom ul li{
+        padding: 6px 14px;
+        font-size: 12px;
+        margin-right: 12px;
+    }
+    #programsBenifit .programsBenifitContainer .item img {
+        border-radius: 5px;
+        width: 100%;
+    }
+    #programsBenifit .programsBenifitContainer .item{
+        margin-bottom: 30px;
+    }
+
+    #memberShipPlanSection .priceTable .item{
+        margin-bottom: 30px;
+    }
+    #parrentsFeedback .parrentsFeedbackMain .parrentsFeedbackMainSlider .parrentsFeedbackItem .left {
+        padding: 20px;
+    }
+    #parrentsFeedback .parrentsFeedbackMain .parrentsFeedbackMainSlider .parrentsFeedbackItem .left p {
+        font-size: 12px;
+        line-height: 20px;
+        margin-bottom: 10px;
+        padding-left: 20px;
+    }
+    #parrentsFeedback .parrentsFeedbackMain .parrentsFeedbackMainSlider .parrentsFeedbackItem .left h4 {
+        font-size: 13px;
+    }
+    #parrentsFeedback .parrentsFeedbackMain .parrentsFeedbackMainSlider .parrentsFeedbackItem .left h5 {
+        font-size: 11px;
+        margin-bottom: 5px;
+    }
+
+    #programMainprogrmaBanar .content .top {
+        padding: 27px 34px;
+    }
+    #programMainprogrmaBanar .content .top .left h4 {
+        font-size: 16px;
+    }
+    #programMainprogrmaBanar .content .top .bottomPart .item h4 {
+        font-size: 12px;
+    }
+    #programMainprogrmaBanar .content .performance{
+        padding: 27px 34px;
+    }
+    #programMainprogrmaBanar .content .performance .perSkills ul li {
+        margin-bottom: 22px;
+    }
+    #programMainprogrmaBanar .content .gettigStated .gettigStatedItem {
+        padding: 20px 35px;
+    }
+    #programMainprogrmaBanar .content .gettigStated .gettigStatedItem .left p {
+        font-size: 13px;
+    }
+    #programMainprogrmaBanar .content .gettigStated .gettigStatedItem .right a {
+        font-size: 10px;
+        padding: 5px 20px 10px 20px;
+    }
+    #classScheduleArea .classScheduleAreaMain #accordion .classScheduleItem .classSceduleContent .item .left ul li span {
+        float: inherit;
+        width: auto !important;
+    }
+    #programsProject .programsProjectMain .programsProjectMainSlider .programsProjectMainSliderItem img {
+        width: 100%;
+    }
+    #programMainprogrmaBanar .content .performance .perBadge ul li {
+        padding: 6px 28px 5px 7px;
+        font-size: 12px;
+        margin-right: 10px;
+    }
+    #programMainprogrmaBanar .content .performance .perSkills ul li {
+        padding: 7px 34px 5px 7px;
+        font-size: 12px;
+        margin-right: 1px;
+    }
+    #classDetailsNewHeader .right .profile {
+        padding-left: 17px;
+    }
+    #classDetailsNewHeader .left h3 {
+        font-size: 17px;
+    }
+    .scree5Content .top {
+        margin-top: 4px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .scree5Content .main_content {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .screen6Content .contentScreen6 {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    .scree4Content .top {
+        margin-top: 4px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .scree11Content .top {
+        margin-top: 4px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .scree11Content .quizContainer {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    .scree11Content .quizContainer .quizItem h4 input {
+        margin-top: 10px;
+    }
+    #profilePageTopArea .profileInfoTop .profileInfoInfo {
+        left: 12px;
+        top: 8px;
+    }
+    #profilePageTopArea .profileInfoTop .profileInfoImage label {
+        right: 24px;
+    }
+    #profilePageTopArea .profileInfoTop {
+        padding: 30px 0px 0px 0px;
+    }
+    #profilePageMainContent .leftPanel {
+        padding: 20px;
+    }
+    #profilePageMainContent .leftPanel .aboutUser p {
+        font-size: 12px;
+    }
+    #profilePageMainContent .leftPanel .info ul li {
+        font-size: 12px;
+        margin-bottom: 15px;
+    }
+    #profilePageMainContent .leftPanel .info ul li img {
+        margin-right: 7px;
+        height: 17px;
+    }
+    #profilePageMainContent .rightPanel .goalsProfileSlider .goalsProfileSliderActive .goalsProfileSliderItem .content h4 {
+        font-size: 11px;
+    }
+    #profilePageMainContent .rightPanel .goalsProfileSlider .goalsProfileSliderActive .goalsProfileSliderItem .content .fillbar {
+        width: 86%;
+    }
+    #profilePageMainContent .rightPanel .goalsProfileSlider .goalsProfileSliderActive .owl-nav .owl-next {
+        height: 30px;
+        width: 30px;
+        right: -14px;
+        line-height: 30px;
+        font-size: 17px;
+    }
+    #profilePageMainContent .rightPanel .goalsProfileSlider .goalsProfileSliderActive .owl-nav .owl-prev {
+        height: 30px;
+        width: 30px;
+        left: -14px;
+        line-height: 30px;
+        font-size: 17px;
+    }
+    #profilePageMainContent .rightPanel .profileBadge .profileBadgeSlider .profileBadgeSliderActive .profileBadgeSliderItem img {
+        height: 75px;
+    }
+    #profilePageMainContent .rightPanel .profileBadge .profileBadgeSlider .profileBadgeSliderActive .profileBadgeSliderItem p {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    #profilePageMainContent .rightPanel .profileBadge .profileBadgeSlider .profileBadgeSliderActive .owl-nav .owl-next{
+        height: 30px;
+        width: 30px;
+        right: -14px;
+        line-height: 30px;
+        font-size: 17px;
+    }
+    #profilePageMainContent .rightPanel .profileBadge .profileBadgeSlider .profileBadgeSliderActive .owl-nav .owl-prev{
+        height: 30px;
+        width: 30px;
+        left: -14px;
+        line-height: 30px;
+        font-size: 17px;
+    }
+    #profilePageMainContent .rightPanel .goalsProfileSlider > h4 {
+        width: 122px;
+        font-size: 14px;
+        padding: 8px 0px 15px 0px;
+    }
+    #profilePageMainContent .rightPanel .profileBadge > h4 {
+        width: 121px;
+        font-size: 14px;
+        padding: 13px 0px 20px 0px;
+    }
+    #profilePageMainContent .rightPanel .profielSkill > h4 {
+        width: 96px;
+        font-size: 14px;
+    }
+    #profilePageMainContent .rightPanel .profielSkill ul li {
+        font-size: 12px;
+        padding: 4px 27px 4px 5px;
+    }
+    #profilePageMainContent .rightPanel .profileCertificate > h4 {
+        width: 165px;
+        font-size: 15px;
+    }
+    #profilePageMainContent .rightPanel .profilePortfolio > h4 {
+        width: 134px;
+        font-size: 14px;
+    }
+    #profilePageMainContent .rightPanel .profilePortfolio .content .profilePortfolioItem .itemContent h4 {
+        font-size: 15px;
+        width: 100%;
+        line-height: 20px;
+    }
+    #myClassTabTop .tabMainBtnMyClass ul li a {
+        font-size: 15px;
+    }
+    #accountSettingsMain .rightPanelSettings .accountSettingsTabContent .myWalletTabContentTop .leftDate .input-group input {
+        max-width: 100%;
+    }
+    #accountSettingsMain .rightPanelSettings .accountSettingsTabContent .myWalletTabContentTop .leftDate .input-group .input-group-addon {
+        right: 57px;
+    }
+    #accountSettingsMain .rightPanelSettings .accountSettingsTabContent .myWalletTabContentTop .rightInfo{
+        margin-top: 20px;
+    }
+    #accountSettingsMain .rightPanelSettings .accountSettingsTabContent .myWalletTabContentTop .leftBtn{
+        margin-top: 20px;
+    }
+    .myWalletTable  .table{
+        width: 629px;
+        margin-bottom: 1rem;
+        color: #212529;
+        position: relative;
+        right: 156px;
+    }
+    #accountSettingsMain .rightPanelSettings .settingsTabPersoanlDetails .topImage .imageBox label {
+        right: 54px;
+    }
+    #accountSettingsMain .rightPanelSettings .settingsTabPersoanlDetails .persoanDetailsMainForm .inputBox {
+        width: 100%;
+    }
+    #merketingHowItswork .realworldGoals .realworldGoalsMain .realworldGoalsMainItem {
+        margin-bottom: 32px;
+    }
+    #merketingHowItswork .realworldGoals .realworldGoalsMain .realworldGoalsMainItem2 {
+        min-height: 278px;
+        padding: 115px 10px;
+    }
+    #attendMasterClassArea .attendMasterClassMain .attendMasterClassMainItem {
+        margin-bottom: 30px;
+    }
+    #attendMasterClassArea .attendMasterClassMain .attendMasterClassMainItem2 {
+        padding: 103px 10px;
+        min-height: 251px;
+    }
+    #developeExpertise .developeExpertiseMain .developeExpertiseMainItem {
+        margin-bottom: 30px;
+    }
+    #developeExpertise .developeExpertiseMain .developeExpertiseMainItem2 {
+        padding: 105px 10px;
+        min-height: 257px;
+    }
+    #programingEarnBadge .programingEarnBadgeMain .programingEarnBadgeMainItem {
+        margin-bottom: 30px;
+    }
+    #programingEarnBadge .programingEarnBadgeMain .programingEarnBadgeMainItem2 {
+        padding: 104px 10px;
+    }
+    #aboutPageBanar .aboutPageBanarContent p {
+        font-size: 13px;
+    }
+    #aboutPageBanar .aboutPageBanarContent h3 {
+        font-size: 26px;
+    }
+    #aboutPageMain .aboutPageMainContainer .aboutPageMainItem1 h4 {
+        font-size: 22px;
+    }
+    #aboutPageMain .aboutPageMainContainer {
+        padding: 44px 7px;
+    }
+    #aboutPageMain .aboutPageMainContainer #imagePatern {
+        top: 44%;
+        left: 50%;
+        height: 76%;
+        width: 94%;
+    }
+    #aboutPageMain .aboutPageMainContainer .aboutPageMainItem3 p {
+        width: 76%;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    #aboutPageAboutSlider .aboutPageAboutSliderActive .aboutPageAboutSliderItem p {
+        min-height: 251px;
+    }
+    #checkoutPage .checkoutPageContainer {
+        width: 75%;
+    }
+    #checkoutPage {
+        padding: 78px 0px 300px 0px;
+    }
+    #checkoutConfirmation .checkoutConfirmationContainer {
+        width: 66%;
+    }
+    #checkoutConfirmation {
+        padding: 56px 0px 300px 0px;
+    }
+    #faqInfoQuoteBottom .faqInfoQuoteBottomContainer {
+        width: 96%;
+        background-size: contain;
+    }
+    #leaderboardMainContentArea .leaderBoardTanMainContent .leaderboardSubtabHeader .nav li a {
+        margin-bottom: 15px;
+    }
+    #refferelMainArea .refferelMainAreaContent .refferelMainAreaContentItem .sightArrowRefferel img {
+        height: 7px !important;
+    }
+    #refferelMainArea .refferelMainAreaContent .refferelMainAreaContentItem .sightArrowRefferel {
+        top: 45%;
+        right: -38px;
+    }
+    #refferal1MainArea .refferal1MainAreaContiner {
+        width: 75%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media (max-width: 767px) {
+    #masterClass_scroll_header .masterClass_scroll_header_container .masterClass_scroll_header_item a.active:after {
+        width: 100%;
+        opacity: 1;
+    }
+}
+
+/*-- Phone Landscape --*/
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .hide_sm{
+        display: none !important;
+    }
+    .show_sm{
+        display: block !important;
+    }
+    #banar {
+        padding: 42px 0px;
+        padding-bottom: 91px;
+    }
+    #banar .banar_content p {
+        width: 100%;
+    }
+    #banar .banar_content a {
+        padding: 12px 48px;
+        padding-bottom: 18px;
+        font-size: 13px;
+    }
+    #goals_main .goals_main_item .content h3 {
+        font-size: 13px;
+        line-height: 18px;
+    }
+    #goals_main .goals_main_item .content p {
+        margin-top: 4px;
+        font-size: 9px;
+    }
+    #goals_main .goals_main_item {
+        min-height: auto;
+    }
+    #main_footer_top .footer_info .info ul li {
+        margin-bottom: 20px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    #main_footer_top .footer_info .info ul li img {
+        margin-bottom: 19px;
+    }
+    #main_footer_top .footer_link .footer_link_item ul li a {
+        font-size: 13px;
+    }
+
+    /*-- single goal page --*/
+    #singleGoal_banar {
+        padding: 10px 0px 5px 0px;
+    }
+    #singleGoal_banar .singleGoal_banar_content_main h3 {
+        font-size: 24px;
+    }
+    #singleGoal_banar .singleGoal_banar_content_main h5 {
+        margin-top: 9px;
+        font-size: 14px;
+    }
+    #singleGoal_banar .singleGoal_banar_content_main p {
+        margin-top: 12px;
+        width: 87%;
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 500;
+    }
+    #badge_single_goals .badge_single_goals_item p {
+        font-size: 14px;
+        margin-top: 11px;
+        font-weight: 500;
+    }
+    #badge_single_goals .badge_single_goals_item.text-center {
+        margin-bottom: 20px;
+    }
+
+    #masterClass .masterClass_main .masterClass_main_item .image .info h3 {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+    #masterClass .masterClass_main .masterClass_main_item .image .info h5 {
+        font-size: 10px;
+    }
+    #masterClass .masterClass_main .masterClass_main_item .content .content_left h5 {
+        font-size: 12px;
+        margin-top: 3px;
+    }
+    #masterClass .masterClass_main .masterClass_main_item .content .content_right h5 {
+        font-size: 11px;
+        margin-top: 3px;
+    }
+    #mastaerClass_program .mastaerClass_program_main .mastaerClass_program_main_item{
+        margin-bottom: 30px;
+    }
+    #mastaerClass_program .mastaerClass_program_main .mastaerClass_program_main_item .image .info h3 {
+        font-size: 20px;
+        line-height: 29px;
+    }
+    #master_class_project .master_class_project_main .master_class_project_main_item {
+        margin-bottom: 30px;
+    }
+    #masterClass .masterClass_title h3 {
+        width: 195px;
+        font-size: 15px;
+    }
+    #mastaerClass_program .mastaerClass_program_title h3 {
+        width: 151px;
+        font-size: 15px;
+    }
+    #master_class_project .master_class_project_title h3 {
+        width: 150px;
+        font-size: 15px;
+    }
+    
+    /*-- badge page --*/
+    #badge_page_main .badge_page_main_item .content h3 {
+        font-size: 16px;
+    }
+
+    /*-- master class --*/
+    .masterClass_scroll_item_1_class .masterClass_scroll_item_1_main .masterClass_scroll_item_1_main_item .image img{
+        width: 100%;
+    }
+    .masterClass_scroll_item_1_main_item {
+        margin-bottom: 30px;
+    }
+
+    /*-- single master class --*/
+    #singleMasterClassPageBanar .singleMasterClassPageBanarTop .singleMasterClassPageBanarTopRight button {
+        width: 156px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarTop .singleMasterClassPageBanarTopLeft h3 {
+        font-size: 20px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarTop .singleMasterClassPageBanarTopRight button span {
+        display: block;
+        float: left;
+        margin-right: 13px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent {
+        padding-left: 0px;
+        margin-top: 34px;
+    }
+    #masterClassSkillPage .top h3 {
+        font-size: 15px;
+        padding-top: 13px;
+    }
+    #masterClassSkillPage .skill_1 ul li {
+        margin-bottom: 19px;
+    }
+    #masterClassSkillPage .skill_2 .skill_2_slider .skill_2_slider_item {
+        padding: 15px 10px 24px 4px;
+        font-size: 11px;
+        color: #262525;
+    }
+    #attendClassMasterCLass .attendClassMasterCLassMain .attend_class_item {
+        margin-bottom: 30px;
+    }
+    #whatStudentCreate .whatStudentCreateSlider .whatStudentCreateSliderActive .whatStudentCreateSliderItem img {
+        width: 55%;
+    }
+    #whatStudentCreate .whatStudentCreateSlider .whatStudentCreateSliderActive .owl-nav .owl-next {
+        right: 95px;
+    }
+    #whatStudentCreate .whatStudentCreateSlider .whatStudentCreateSliderActive .owl-nav .owl-prev {
+        left: 95px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .after_buy_class .top .btn_1 a {
+        margin-bottom: 11px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .after_buy_class .bottom .invite_btn a {
+        margin-top: 10px;
+    }
+    #classAtendBanar .bottom .left h3 {
+        font-size: 25px;
+    }
+    section#attendClassRettig .right {
+        margin-top: 13px;
+        text-align: center;
+    }
+    #attendCLassInviteFriend .invite .buttonInvite a {
+        display: block;
+        margin: 0 auto;
+        margin-top: 11px;
+        width: 70%;
+    }
+    #attendClassSkill .skills_bottom ul li {
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+    #attendClassSkill .skills_bottom ul li h4 {
+        min-width: 235px;
+        margin-right: 7px;
+    }
+    #attendClassSkill .goals .title h3 {
+        font-size: 14px;
+        padding-top: 13px;
+    }
+    #coverdInClass .coverdVideo {
+        margin-top: 30px;
+    }
+    /*-- class submission --*/
+
+    .classSubmissionMainContainer .comon_bred_come ul li {
+        font-size: 13px;
+        margin-right: 3px;
+    }
+    #classSubmissionMain .classSubmissionMainContainer .top h3 {
+        font-size: 22px;
+    }
+    #classSubmissionMain .classSubmissionMainContainer .top h4 {
+        width: 200px;
+        font-size: 13px;
+        padding-top: 10px;
+    }
+    #classSubmissionMain .classSubmissionMainContainer .submission_file_assignment .top h3 {
+        width: 260px;
+        font-size: 14px;
+    }
+    #classSubmissionMain .classSubmissionMainContainer {
+        padding: 30px 20px 30px 20px;
+    }
+
+    /*-- sing up popup --*/
+    #signUpPopup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #signUpPopup::-webkit-scrollbar {
+      display: none;
+    }
+    #signUpPopup::-moz-scrollbar {
+      display: none;
+    }
+    #signUpPopup::-o-scrollbar {
+      display: none;
+    }
+    #signUpPopup::-ms-scrollbar {
+      display: none;
+    }
+    /*-- otp auth popup --*/
+    #otp_popup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #otp_popup::-webkit-scrollbar {
+      display: none;
+    }
+    #otp_popup::-moz-scrollbar {
+      display: none;
+    }
+    #otp_popup::-o-scrollbar {
+      display: none;
+    }
+    #otp_popup::-ms-scrollbar {
+      display: none;
+    }
+    /*-- signinConfirmation popup --*/
+    #signinConfirmation_popup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #signinConfirmation_popup::-webkit-scrollbar {
+      display: none;
+    }
+    #signinConfirmation_popup::-moz-scrollbar {
+      display: none;
+    }
+    #signinConfirmation_popup::-o-scrollbar {
+      display: none;
+    }
+    #signinConfirmation_popup::-ms-scrollbar {
+      display: none;
+    }
+    /*-- bookClassPopup popup --*/
+    #bookClassPopup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #bookClassPopup::-webkit-scrollbar {
+      display: none;
+    }
+    #bookClassPopup::-moz-scrollbar {
+      display: none;
+    }
+    #bookClassPopup::-o-scrollbar {
+      display: none;
+    }
+    #bookClassPopup::-ms-scrollbar {
+      display: none;
+    }
+    /*-- signinConfirmation popup --*/
+    #bookClassInsufficant{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #bookClassInsufficant::-webkit-scrollbar {
+      display: none;
+    }
+    #bookClassInsufficant::-moz-scrollbar {
+      display: none;
+    }
+    #bookClassInsufficant::-o-scrollbar {
+      display: none;
+    }
+    #bookClassInsufficant::-ms-scrollbar {
+      display: none;
+    }
+    /*-- signinConfirmation popup --*/
+    #joinClassPopup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 150px;
+        padding-bottom: 50px;
+    }
+    #joinClassPopup .joinClassPopupContiner {
+        width: 90%;
+    }
+    #joinClassPopup::-webkit-scrollbar {
+      display: none;
+    }
+    #joinClassPopup::-moz-scrollbar {
+      display: none;
+    }
+    #joinClassPopup::-o-scrollbar {
+      display: none;
+    }
+    #joinClassPopup::-ms-scrollbar {
+      display: none;
+    }
+    /*-- badgePopup popup --*/
+    #badgePopup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #badgePopup .badgePopupContainer {
+        width: 90%;
+    }
+    #badgePopup::-webkit-scrollbar {
+      display: none;
+    }
+    #badgePopup::-moz-scrollbar {
+      display: none;
+    }
+    #badgePopup::-o-scrollbar {
+      display: none;
+    }
+    #badgePopup::-ms-scrollbar {
+      display: none;
+    }
+
+    #submission_error{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 150px;
+        padding-bottom: 50px;
+    }
+    #submission_error::-webkit-scrollbar {
+      display: none;
+    }
+    #submission_error::-moz-scrollbar {
+      display: none;
+    }
+    #submission_error::-o-scrollbar {
+      display: none;
+    }
+    #submission_error::-ms-scrollbar {
+      display: none;
+    }
+    #earndPointPopup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 150px;
+        padding-bottom: 50px;
+    }
+    #earndPointPopup::-webkit-scrollbar {
+      display: none;
+    }
+    #earndPointPopup::-moz-scrollbar {
+      display: none;
+    }
+    #earndPointPopup::-o-scrollbar {
+      display: none;
+    }
+    #earndPointPopup::-ms-scrollbar {
+      display: none;
+    }
+#whatStudentCreate .whatStudentCreateSlider .slick-next {
+        position: absolute;
+        bottom: 77px;
+        right: 29%;
+        height: 34px;
+        width: 34px;
+        background: #F6F6F6;
+        border-radius: 50%;
+        border: none;
+        z-index: 9999999;
+        outline: none;
+        font-size: 23px;
+        transition: 0.4s;
+    }
+    #whatStudentCreate .whatStudentCreateSlider .slick-prev {
+        position: absolute;
+        bottom: 77px;
+        height: 34px;
+        width: 34px;
+        background: #F6F6F6;
+        border-radius: 50%;
+        border: none;
+        z-index: 9999999;
+        outline: none;
+        font-size: 23px;
+        transition: 0.4s;
+        left: 29%;
+    }
+    #whatStudentCreate .whatStudentCreateSlider .whatStudentCreateSliderItem.slick-current.slick-active.slick-center:after {
+        border: 6px solid #000;
+    }
+
+    #programpPagebanar {
+        padding: 13px 0px 90px 0px;
+    }       
+    #programpPagebanar .content p {
+        font-size: 16px;
+        width: 68%;
+    }
+    #programpPagebanar .content a {
+        padding: 9px 49px;
+        padding-bottom: 17px;
+        font-size: 13px;
+    }
+    #progrsamMainPageContent .buttonArea a {
+        padding: 9px 00px;
+        padding-bottom: 14px;
+        width: 186px;
+        font-size: 13px;
+        margin: 0px 20px;
+    }
+    #mainPogramDetailsBanar .mainContent .right {
+        margin-bottom: 30px;
+    }
+    #programDetailsLearn .top ul li {
+        display: inline-block;
+        border: 1px solid #8AB7C0;
+        background: #fff;
+        padding: 6px 13px;
+        font-size: 12px;
+        border-radius: 30px;
+        font-weight: 500;
+        margin-bottom: 9px;
+        margin-right: 9px;
+    }
+    #programDetailsLearn .middle ul li img {
+        height: 50px;
+    }
+    #programDetailsLearn .bottom ul li {
+        display: inline-block;
+        border: 1px solid #8AB7C0;
+        background: #fff;
+        padding: 6px 13px;
+        font-size: 12px;
+        border-radius: 30px;
+        font-weight: 500;
+        margin-bottom: 9px;
+        margin-right: 9px;
+    }
+    #programsBenifit .title p {
+        width: 81%;
+    }
+    #programsBenifit .programsBenifitContainer .item {
+        margin-bottom: 30px;
+    }
+    #programsBenifit .programsBenifitContainer .item img {
+        border-radius: 5px;
+        width: 100%;
+    }
+    #memberShipPlanSection .priceTable .item{
+        margin-bottom: 30px;
+    }
+    #singleProgramsPageBanar .banar_content p {
+        margin-top: 20px;
+        width: 87%;
+    }
+    #singleProgramsPageBanar .banar_content h3 {
+        font-size: 27px;
+    }
+    #programMainprogrmaBanar .content .top {
+        padding: 22px 30px;
+    }
+    #programMainprogrmaBanar .content .top .left h4 {
+        font-size: 14px;
+    }
+    #programMainprogrmaBanar .content .top .right h4 {
+        font-size: 13px;
+        text-align: left;
+        margin-top: 10px;
+    }
+    #programMainprogrmaBanar .content .top .bottomPart .item h4 {
+        font-size: 12px;
+        font-weight: 600;
+    }
+    #programMainprogrmaBanar .content .top .bottomPart .item h4 img {
+        margin-right: 10px;
+        display: block;
+        float: left;
+    }
+    #programMainprogrmaBanar .content .performance {
+        padding: 22px 30px;
+    }
+    #programMainprogrmaBanar .content .performance .perBadge ul li {
+        padding: 7px 30px 5px 7px;
+        font-size: 12px;
+        margin-right: 5px;
+        margin-bottom: 14px;
+    }
+    #programMainprogrmaBanar .content .performance .perBadge ul li img {
+        margin-right: 6px;
+    }
+    #programMainprogrmaBanar .content .performance .perSkills ul li{
+        padding: 7px 30px 5px 7px;
+        font-size: 12px;
+        margin-right: 5px;
+        margin-bottom: 14px;
+    }
+    #programMainprogrmaBanar .content .performance .perSkills ul li img{
+        margin-right: 6px;
+    }
+    #programMainprogrmaBanar .content .gettigStated .gettigStatedItem .right {
+        text-align: left !important;
+        margin-top: 21px;
+    }
+    #classScheduleArea .classScheduleAreaMain #accordion .classScheduleItem .classSceduleContent .item .left ul li span {
+        float: inherit;
+        width: 100%;
+        font-size: 13px;
+    }
+    #classScheduleArea .classScheduleAreaMain #accordion .classScheduleItem .classSceduleContent .item .right ul li span {
+        margin-top: 13px;
+    }
+    #programsProject .programsProjectMain .programsProjectMainSlider .programsProjectMainSliderItem img {
+        width: 100%;
+    }
+    #classDetailsNewHeader .right .profile {
+        padding-left: 0px;
+        width: 47%;
+        margin-top: 18px;
+    }
+    #programsClassDetails .mainContainer {
+        padding: 20px 30px;
+    }
+    #programsClassDetails .mainContainer .top h4 {
+        font-size: 15px;
+        line-height: 21px;
+    }
+    #programsClassDetails .mainContainer .botom .item .content h4 {
+        font-size: 13px;
+    }
+    #sceenHeader .sceenHeaderLeft button {
+        width: 100%;
+    }
+
+    #sceenHeader .sceenHeaderLeft {
+        width: 100%;
+    }
+    #sceenHeader .sceenHeaderLeft button h4 {
+        font-weight: 700;
+        font-size: 11px;
+    }
+    #sceenHeader .sceenHeaderLeft .dropdown-menu ul li a {
+        font-size: 11px;
+    }
+    #classScreenMain .classScreenMainContainer {
+        padding: 20px;
+    }
+    .scree1Content p {
+        width: 90%;
+        text-align: left;
+        margin: 0 auto;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 21px;
+    }
+    #sceenHeader .sceenHeaderRight > ul > li {
+        display: inline-block;
+        margin-left: 24px;
+    }
+    .scree5Content .top {
+        margin-top: 4px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .scree5Content .main_content {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .screen6Content .contentScreen6 {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 40px;
+    }
+    .scree4Content .top {
+        margin-top: 4px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .scree11Content .quizContainer .quizItem h4 input {
+        margin-left: 30px;
+        width: 280px;
+        border: 1px solid #37575e8a;
+        font-weight: 500;
+        font-size: 14px;
+        padding: 10px 15px;
+        border-radius: 5px;
+        margin-top: 13px;
+    }
+    .scree11Content .top {
+        width: 100%;
+    }
+    .scree11Content .quizContainer {
+        width: 100%;
+    }
+    #profilePageTopArea .profileInfoTop .profileInfoImage > img {
+        height: 102px;
+    }
+    #profilePageTopArea .profileInfoTop .profileInfoImage label {
+        right: 33px;
+    }
+    #profilePageTopArea .profileInfoTop .profileInfoInfo {
+        left: 0px;
+        top: 10px;
+    }
+    #profilePageTopArea .profileInfoTop .profileInfoInfo ul li {
+        font-size: 11px;
+        margin-right: 6px;
+    }
+    #profilePageTopArea .profileInfoTop .profileInfoInfo h4 {
+        font-size: 18px;
+    }
+    #profilePageTopArea .profileInfoTop .profileInfoInfo ul {
+        margin-top: 0px;
+    }
+    #profilePageTopArea .profileInfoTop {
+        padding: 28px 0px 0px 0px;
+    }
+    #profilePageMainContent .leftPanel {
+        margin-bottom: 40px;
+    }
+    #profilePageMainContent .rightPanel .goalsProfileSlider .goalsProfileSliderActive .goalsProfileSliderItem .content h4 {
+        font-size: 11px;
+    }
+    #profilePageMainContent .rightPanel .goalsProfileSlider .goalsProfileSliderActive .goalsProfileSliderItem .content .fillbar {
+        width: 86%;
+    }
+    #profilePageMainContent .rightPanel .goalsProfileSlider .goalsProfileSliderActive .owl-nav .owl-next {
+        height: 30px;
+        width: 30px;
+        right: -14px;
+        line-height: 30px;
+        font-size: 17px;
+    }
+    #profilePageMainContent .rightPanel .goalsProfileSlider .goalsProfileSliderActive .owl-nav .owl-prev {
+        height: 30px;
+        width: 30px;
+        left: -14px;
+        line-height: 30px;
+        font-size: 17px;
+    }
+    #profilePageMainContent .rightPanel .profileBadge .profileBadgeSlider .profileBadgeSliderActive .profileBadgeSliderItem img {
+        height: 75px;
+    }
+    #profilePageMainContent .rightPanel .profileBadge .profileBadgeSlider .profileBadgeSliderActive .profileBadgeSliderItem p {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    #profilePageMainContent .rightPanel .profileBadge .profileBadgeSlider .profileBadgeSliderActive .owl-nav .owl-next{
+        height: 30px;
+        width: 30px;
+        right: -14px;
+        line-height: 30px;
+        font-size: 17px;
+    }
+    #profilePageMainContent .rightPanel .profileBadge .profileBadgeSlider .profileBadgeSliderActive .owl-nav .owl-prev{
+        height: 30px;
+        width: 30px;
+        left: -14px;
+        line-height: 30px;
+        font-size: 17px;
+    }
+    #profilePageMainContent .rightPanel .goalsProfileSlider > h4 {
+        width: 122px;
+        font-size: 14px;
+        padding: 8px 0px 15px 0px;
+    }
+    #profilePageMainContent .rightPanel .profileBadge > h4 {
+        width: 121px;
+        font-size: 14px;
+        padding: 13px 0px 20px 0px;
+    }
+    #profilePageMainContent .rightPanel .profielSkill > h4 {
+        width: 96px;
+        font-size: 14px;
+    }
+    #profilePageMainContent .rightPanel .profielSkill ul li {
+        font-size: 12px;
+        padding: 4px 27px 4px 5px;
+    }
+    #profilePageMainContent .rightPanel .profileCertificate > h4 {
+        width: 165px;
+        font-size: 15px;
+    }
+    #profilePageMainContent .rightPanel .profilePortfolio > h4 {
+        width: 134px;
+        font-size: 14px;
+    }
+    #profilePageMainContent .rightPanel .profilePortfolio .content .profilePortfolioItem .itemContent h4 {
+        font-size: 15px;
+        width: 100%;
+        line-height: 20px;
+    }
+    #myClassTabTop .tabMainBtnMyClass ul li a {
+        font-size: 13px;
+    }
+    #accountSettingsMain .leftPanelSettings .settingsTabBtn ul {
+        display: flex;
+        justify-content: space-around;
+    }
+    #accountSettingsMain .leftPanelSettings .settingsTabBtn ul li a:after {
+        right: 0;
+        margin: auto;
+    }
+    #accountSettingsMain .leftPanelSettings .settingsTabBtn ul li a {
+        font-size: 14px;
+    }
+    #accountSettingsMain .rightPanelSettings .accountSettingsTabContent .myWalletTabContentTop .leftDate .input-group input {
+        max-width: 100%;
+    }
+    #accountSettingsMain .rightPanelSettings .accountSettingsTabContent .myWalletTabContentTop .leftDate .input-group .input-group-addon {
+        top: 50%;
+        right: 55px;
+    }
+    .datepicker {
+        top: 201px !important;
+        left: 101px !important;
+    }
+    #accountSettingsMain .rightPanelSettings .accountSettingsTabContent .myWalletTabContentTop .leftBtn{
+        margin-top: 20px;
+    }
+    #accountSettingsMain .rightPanelSettings .accountSettingsTabContent .myWalletTabContentTop .rightInfo{
+        margin-top: 20px;
+    }
+    #accountSettingsMain .rightPanelSettings .accountSettingsTabContent .myWalletTable .table thead th {
+        font-size: 10px;
+    }
+    #accountSettingsMain .rightPanelSettings .accountSettingsTabContent .myWalletTable .table tbody tr .dateTime p {
+        font-size: 12px;
+        width: 114px;
+    }
+    #accountSettingsMain .rightPanelSettings .accountSettingsTabContent .myWalletTable .table tbody tr .titleTable p {
+        font-size: 12px;
+    }
+    #accountSettingsMain .rightPanelSettings .accountSettingsTabContent .myWalletTable .table tbody tr .ammount {
+        padding-left: 30px;
+        width: 134px;
+    }
+    #accountSettingsMain .rightPanelSettings .accountSettingsTabContent .myWalletTable .table tbody tr .ammount h4 {
+        font-weight: 700;
+        font-size: 13px;
+    }
+    #accountSettingsMain .rightPanelSettings .settingsTabPersoanlDetails .topImage .imageBox label {
+        right: 95px;
+    }
+    #accountSettingsMain .rightPanelSettings .settingsTabPersoanlDetails .persoanDetailsMainForm .inputBox {
+        width: 100%;
+    }
+    #merketingHomeBanar {
+        padding: 33px 0px 112px 0px;
+    }
+    #merketingHomeBanar .merketingHomeBanarContet h3 {
+        font-size: 22px;
+    }
+    #merketingHowItswork .realworldGoals .realworldGoalsMain .realworldGoalsMainItem {
+        margin-bottom: 20px;
+    }
+    #merketingHowItswork .realworldGoals .realworldGoalsMain .realworldGoalsMainItem2 {
+        padding: 83px 10px;
+        min-height: 237px;
+    }
+    #attendMasterClassArea .attendMasterClassMain .attendMasterClassMainItem{
+        margin-bottom: 20px;
+    }
+    #attendMasterClassArea .attendMasterClassMain .attendMasterClassMainItem2 {
+        padding: 71px 10px;
+        min-height: 219px;
+    }
+    #developeExpertise .developeExpertiseMain .developeExpertiseMainItem{
+        margin-bottom: 20px;
+    }
+    #developeExpertise .developeExpertiseMain .developeExpertiseMainItem2 {
+        padding: 74px 10px;
+        min-height: 220px;
+    }
+    #programingEarnBadge .programingEarnBadgeMain .programingEarnBadgeMainItem{
+        margin-bottom: 20px;
+    }
+    #programingEarnBadge .programingEarnBadgeMain .programingEarnBadgeMainItem2 {
+        padding: 69px 10px;
+        min-height: 227px;
+    }
+    #getReadyForFuture {
+        padding: 0px 0px 100px 0px;
+        background: #FBFCF7;
+    }
+    #whatStudentCreate.whatStudentCreate2 .title p {
+        width: 98%;
+    }
+    #aboutPageMain .aboutPageMainContainer {
+        padding: 40px 30px;
+    }
+    #aboutPageMain .aboutPageMainContainer .aboutPageMainItem1 h4 {
+        font-size: 17px;
+    }
+    #aboutPageMain .aboutPageMainContainer .aboutPageMainItem1 p {
+        width: 100%;
+        margin-top: 26px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    #aboutPageMain .aboutPageMainContainer #imagePatern{
+        display: none;
+    }
+    #aboutPageMain .aboutPageMainContainer .aboutPageMainItem2 h4 {
+        font-size: 13px;
+    }
+    #aboutPageMain .aboutPageMainContainer .aboutPageMainItem2 {
+        margin-top: 40px;
+    }
+    #aboutPageMain .aboutPageMainContainer .aboutPageMainItem3 {
+        margin-top: 40px;
+    }
+    #aboutPageMain .aboutPageMainContainer .aboutPageMainItem2 p{
+        width: 100%;
+        margin-top: 26px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    #aboutPageMain .aboutPageMainContainer .aboutPageMainItem3 p{
+        width: 100%;
+        margin-top: 26px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    #affiliateBanarArea {
+        padding: 40px 0px;
+    }
+    #affiliateBanarArea .affiliateBanarAreaContent h3 {
+        font-size: 29px;
+    }
+    #affiliateBanarArea .affiliateBanarAreaContent p {
+        margin-top: 23px;
+        width: 100%;
+        font-size: 14px;
+    }
+    #checkoutPage {
+        padding: 50px 0px;
+    }
+    #checkoutConfirmation {
+        padding: 50px 0px;
+    }
+    #checkoutConfirmation .checkoutConfirmationContainer {
+        width: 96%;
+    }
+    #faqInfoQuoteBottom .faqInfoQuoteBottomContainer {
+        width: 97%;
+        padding: 30px 0px;
+        background-size: contain;
+    }
+    #faqPageBanar {
+        padding: 26px 0px 97px 0px;
+    }
+    #faqPgeMainarea {
+        padding: 50px 0px;
+    }
+    #leaderBoardBanar .leaderBoardBanarContent h3 {
+        font-size: 30px;
+    }
+    #leaderBoardBanar .leaderBoardBanarContent p {
+        margin-top: 20px;
+        width: 100%;
+        line-height: 25px;
+        font-size: 14px;
+    }
+    #leaderboardMainContentArea {
+        padding: 0px 0px 100px 0px;
+    }
+    #leaderboardMainContentArea .leaderBoardTanMainContent .leaderboardItem .left h4 img {
+        margin-right: 5px;
+        height: 33px;
+    }
+    #leaderboardMainContentArea .leaderBoardTanMainContent .leaderboardItem .left h4 span {
+        margin-right: 8px;
+    }
+    #leaderboardMainContentArea .leaderBoardTanMainContent .leaderboardItem {
+        padding: 10px 24px;
+    }
+    #leaderboardMainContentArea .leaderBoardTanMainContent .leaderboardItem .left h4 {
+        font-size: 15px;
+    }
+    #leaderboardMainContentArea .leaderBoardTanMainContent .leaderboardItem .right h4 {
+        font-size: 13px;
+    }
+    #leaderboardMainContentArea .leaderBoardTanMainContent .leaderboardItem .right h4 img {
+        margin-right: 5px;
+        height: 24px;
+    }
+    #leaderboardMainContentArea .leaderBoardTanMainContent .leaderboardSubtabHeader .nav li a {
+        font-size: 11px;
+        padding: 5px 21px;
+        margin: 0px 2px;
+        margin-bottom: 10px;
+    }
+    #reffaralBanar {
+        padding: 50px 0px;
+    }
+    #reffaralBanar .reffaralBanarContent h3 {
+        font-size: 33px;
+    }
+    #reffaralBanar .reffaralBanarContent p {
+        margin-top: 18px;
+        width: 100%;
+        font-size: 14px;
+    }
+    #refferelMainArea .refferelMainAreaContent .refferelMainAreaContentItem .sightArrowRefferel{
+        display: none;
+    }
+    #refferelMainArea .refferelMainAreaContent .refferelMainAreaContentItem{
+        margin-bottom: 30px;
+    }
+    #refferal1MainArea {
+        padding: 50px 0px;
+    }
+    #teachRsbanar .teachRsbanarContent h3 {
+        font-size: 29px;
+    }
+    #teachRsbanar .teachRsbanarContent p {
+        margin-top: 21px;
+        width: 100%;
+        font-size: 14px;
+    }
+    #teachRsMaiArea .teachRtitleTop p {
+        margin-top: 20px;
+        width: 100%;
+        font-size: 14px;
+    }
+    #testMonailBanar {
+        padding: 50px 0px 100px 0px;
+    }
+    #testMonailBanar .testMonailBanarContent h3 {
+        font-size: 27px;
+    }
+    #testMonailBanar .testMonailBanarContent h4 {
+        font-size: 27px;
+        margin-top: 6px;
+    }
+    #testMonailBanar .testMonailBanarContent p {
+        margin: 0 auto;
+        margin-top: 11px;
+        font-weight: 500;
+        width: 90%;
+        font-size: 13px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+/* Extra small Device. */
+@media (max-width: 575px) {
+    .mpl0{
+        padding-left: 0px !important;
+    }
+    .mpr0{
+        padding-right: 0px !important;
+    }
+    .show_mobile{
+        display: block !important;
+    }
+    .hide_mobile{
+        display: none !important;
+    }
+    .banar_shape{
+        display: none;
+    }
+    #banar {
+        padding: 50px 0px;
+        padding-bottom: 50px;
+        background: #fff;
+    }
+    #banar .banar_content h3 {
+        font-size: 24px;
+    }
+    #banar .banar_content p {
+        font-size: 12px;
+        width: 100%;
+        font-weight: 500;
+        line-height: 21px;
+    }
+    #banar .banar_content a {
+        padding: 12px 0px;
+        display: block;
+        font-size: 14px;
+    }
+    #goals_main .goals_main_item .content h3 {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    #goals_main .goals_main_item .content p {
+        margin-top: 3px;
+        font-size: 10px;
+    }
+    #goals_main .goals_main_item {
+        min-height: auto !important;
+    }   
+    #goals_main .load_more_btn {
+        margin-top: 0px;
+    }
+    #goals_main {
+        padding-bottom: 56px;
+    }
+    #footer_bottom {
+        padding: 22px 0px;
+    }
+    #footer_bottom .footer_bottom_content p {
+        font-size: 11px;
+    }
+    #signUpPopup{
+        background: #fff;
+    }
+    #signUpPopup .signUpPopup_container {
+        width: 100%;
+        padding: 30px 20px;
+        box-shadow: 0px 5px 5px rgba(0,0,0,0.1);
+        border-radius: 0px;
+    }
+    #signUpPopup .signUpPopup_container .signUpPopup_tab_btn ul {
+        width: 79.3%;
+    }
+    #signUpPopup .signUpPopup_container .signUpPopup_tab_form #form_1 input {
+        font-size: 14px;
+    }
+    #signUpPopup .signUpPopup_container .signUpPopup_tab_form #form_1 .iti--allow-dropdown .iti__flag-container .iti__selected-flag {
+        font-size: 15px;
+    }
+    #signUpPopup .signUpPopup_container .signUpPopup_tab_form #form_2 input {
+        font-size: 15px;;
+    }
+    .iti--container {
+        z-index: 999999999999999999999;
+    }
+    section#otp_popup {
+        background: #fff;
+    }
+    #otp_popup .otp_popup_container {
+        width: 100%;
+        box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.1);
+        border-radius: 0px;
+        padding: 30px 20px;
+    }
+    #otp_popup .otp_popup_container .opt_terms_condition p {
+        font-size: 11px;
+    }
+    #otp_popup .otp_popup_container .opt_terms_condition p a {
+        margin-left: 3px;
+    }
+    #signinConfirmation_popup{
+        background: #fff;
+    }
+    #signinConfirmation_popup .signinConfirmation_popup_container {
+        width: 100%;
+        padding: 50px 20px;
+        box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.1);
+        border-radius: 0px;
+    }
+    #signinConfirmation_popup .signinConfirmation_popup_container a.btn_1 {
+        width: 62%;
+    }
+    /*-- single goal page --*/
+    #singleGoal_banar {
+        padding: 30px 0px;
+        background: #fff;
+        border-bottom: 2px solid #ddd;
+    }
+    #singleGoal_banar #banar_shape_2{
+        display: none;
+    }
+    #singleGoal_banar .singleGoal_banar_content_main h3 {
+        font-size: 22px;
+    }
+    #singleGoal_banar .singleGoal_banar_content_main {
+        padding: 20px 0px;
+    }
+    #singleGoal_banar .singleGoal_banar_content_main h5 {
+        margin-top: 9px;
+        font-size: 12px;
+    }
+    #singleGoal_banar .singleGoal_banar_content_main p {
+        margin-top: 20px;
+        width: 100%;
+        font-size: 13px;
+        line-height: 21px;
+        font-weight: 500;
+    }
+    #singleGoal_banar .comon_bred_come{
+        display: none;
+    }
+    #masterClass {
+        padding: 0px 0px 60px 0px;
+    }
+    #masterClass .masterClass_title h3 {
+        width: 186px;
+        font-size: 14px;
+    }      
+    #masterClass .masterClass_main .masterClass_main_item .image .info h3 {
+        font-size: 19px;
+        margin-top: 7px;
+    }
+    #masterClass .masterClass_main .masterClass_main_item .image .info h5 {
+        font-size: 10px;
+    }
+    #masterClass .masterClass_main .masterClass_main_item .content .content_left h5 {
+        font-size: 13px;
+        margin-top: 4px;
+    }
+    #masterClass .masterClass_main .masterClass_main_item .content .content_right h5 {
+        font-size: 12px;
+        margin-top: 4px;
+    }
+    #mastaerClass_program .mastaerClass_program_title h3 {
+        width: 147px;
+        font-size: 13px;
+    }
+    #mastaerClass_program .mastaerClass_program_main .mastaerClass_program_main_item .image .info h3 {
+        font-size: 18px;
+        line-height: 29px;
+    }
+    #mastaerClass_program .mastaerClass_program_main .mastaerClass_program_main_item .content h5 {
+        font-size: 16px;
+        margin-top: 5px;
+    }
+    #mastaerClass_program .mastaerClass_program_main .mastaerClass_program_main_item {
+        margin-bottom: 30px;
+    }
+    #mastaerClass_program .mastaerClass_program_main .mastaerClass_program_main_item .image .info {
+        padding: 0px 20px;
+    }
+    #master_class_project .master_class_project_title h3 {
+        width: 150px;
+        font-size: 14px;
+    }
+    #master_class_bottom_btn .master_class_bottom_btn_main a {
+        font-size: 13px;
+    }
+        
+    /*-- master class --*/
+    #masterClass_banar {
+        padding: 40px 0px;
+    }
+    #masterClass_banar .masterClass_banar_content h3 {
+        font-size: 26px;
+    }
+    #masterClass_banar .masterClass_banar_content p {
+        width: 100%;
+        font-size: 12px;
+        margin-top: 18px;
+    }
+    #masterClass_scroll_header .masterClass_scroll_header_container .masterClass_scroll_header_item a h4 {
+        font-size: 10px;
+    }
+    #masterClass_scroll_header .masterClass_scroll_header_container .masterClass_scroll_header_item a h3 {
+        font-size: 12px;
+        margin-top: 1px;
+        margin-bottom: 0px;
+    }
+    #masterClass_scroll_header .masterClass_scroll_header_container .masterClass_scroll_header_item a p {
+        font-size: 11px;
+    }
+    .masterClass_scroll_item_1_main_item {
+        margin-bottom: 30px;
+    }
+    
+    /*-- single goald --*/
+    #singleMasterClassPageBanar {
+        padding: 30px 0px 50px 0px;
+        background: #FBFCF7;
+        overflow-x: hidden;
+    }
+
+    #singleMasterClassPageBanar .comon_bred_come {
+        padding: 0px 15px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarTop {
+        margin-top: 6px;
+        padding: 0px 15px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarTop .singleMasterClassPageBanarTopLeft h3 {
+        font-size: 23px;
+        margin-top: 15px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarTop .singleMasterClassPageBanarTopLeft p {
+        margin-top: 10px;
+        font-size: 12px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom {
+        margin-top: 30px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomvideo .vjs-poster {
+        background-position: 102% 15%;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent {
+        padding-left: 0px;
+        padding: 20px 15px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .top .left h3 {
+        font-size: 17px;
+        margin-top: 4px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .top .right p {
+        font-size: 13px;
+        left: -8px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .before_buy_class .sloat ul li a {
+        width: 90px;
+        margin-right: 12px;
+        font-size: 13px;
+        padding: 8px 0px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .before_buy_class .class_fee ul .btn_1 a {
+        padding: 11px 17px;
+        box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+        font-size: 14px;
+        min-width: 130px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .before_buy_class .class_fee ul .btn_1 a span {
+        font-size: 12px;
+        margin-right: 5px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .before_buy_class .class_fee ul .btn_2 a {
+        font-weight: 600;
+        font-size: 13px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .before_buy_class .book_btn ul .btn_1 a {
+        width: 100% !important;
+        padding: 10px 20px 16px 20px;
+    }
+    #masterClassSkillPage .top h3 {
+        font-size: 16px;
+        padding-top: 12px;
+    }
+    #masterCLassCoverd .masterCLassCoverdContent h3 {
+        font-size: 15px;
+        padding-top: 12px;
+    }
+    #masterCLassCoverd .masterCLassCoverdContent p {
+        margin-top: 10px;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    #masterClassAssingment .masterClassAssingment_top h3 {
+        font-size: 15px;
+        padding-top: 12px;
+    }
+    #whatStudentCreate .title h3 {
+        font-size: 15px;
+    }
+    #whatStudentCreate .whatStudentCreateSlider .whatStudentCreateSliderActive .whatStudentCreateSliderItem img {
+        width: 66%;
+    }
+    #whatStudentCreate #workBgStident {
+        height: 58%;
+    }
+    #whatStudentCreate:after {
+        height: 42px;
+        bottom: -1px;
+    }
+    #masterCLassCoverd {
+        padding-top: 0px;
+    }
+    #masterCLassCoverd {
+        padding-bottom: 20px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .after_buy_class .top .btn_1 a {
+        margin-bottom: 11px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .after_buy_class .bottom .invite_btn a {
+        margin-top: 10px;
+    }
+
+    /*-- class attend --*/
+    #classAtendBanar {
+        padding: 6px 0px 30px 0px;
+    }
+    #classAtendBanar .bottom .left h3 {
+        font-weight: 500;
+        font-size: 21px;
+        margin-top: 7px;
+    }
+    #classAtendBanar .bottom .left p {
+        margin-top: 0px;
+        font-weight: 600;
+        font-size: 11px;
+    }
+    section#attendClassRettig {
+        text-align: center;
+        padding: 40px 17px;
+    }
+    #attendClassRettig .right{
+        margin-top: 20px;
+    }
+    #attendClassRettig .right ul li {
+        display: inline-block;
+        margin-right: 0px;
+        cursor: pointer;
+        margin: 0px 7px;
+    }
+    #attendClassRettig .right ul li img {
+        height: 40px;
+    }
+    #attendCLassInviteFriend .invite .info h4 {
+        font-size: 13px;
+        top: 0px;
+    }
+    #attendCLassInviteFriend .invite .info p {
+        margin-top: 4px;
+        font-weight: 500;
+        font-size: 14px;
+        color: #474747;
+        position: relative;
+        top: 0px;
+        line-height: 19px;
+    }
+    #attendCLassInviteFriend .invite .buttonInvite a {
+        display: block;
+        background: #FF3A58;
+        font-family: gc;
+        font-size: 14px;
+        color: #fff;
+        padding: 12px 0px;
+        padding-bottom: 17px;
+        border-radius: 5px;
+        width: 130%;
+        font-size: 8px;
+        left: -12px;
+        position: relative;
+    }
+    #attendCLassInviteFriend .classAssignment .main .item .item_info h3 {
+        font-size: 14px;
+        color: #264C55;
+        font-weight: 600;
+    }
+    #attendCLassInviteFriend .classAssignment .main .item .item_info {
+        padding-left: 50px;
+        position: relative;
+    }
+    #attendCLassInviteFriend .classAssignment .main .item .item_info a{
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        transform: translateY(-50%);
+    }
+    #attendClassSkill .goals .title h3 {
+        font-size: 12px;
+        padding-top: 12px;
+        line-height: 22px;
+    }
+    #coverdInClass .info h3 {
+        font-size: 16px;
+        padding-top: 12px;
+    }
+    #coverdInClass .coverdVideo{
+        margin-top: 30px;
+    }
+    #coverdInClass .coverdVideo .vjs-poster {
+        background-position: center center;
+    }
+    body{
+        overflow-x: hidden !important;
+    }
+    /*-- class submission --*/
+    #classSubmissionMain .classSubmissionMainContainer {
+        padding: 20px 10px;
+        padding-bottom: 100px;
+        border-radius: 7px;
+    }
+    #classSubmissionMain .classSubmissionMainContainer .top {
+        margin-top: 0px;
+    }
+    #classSubmissionMain .classSubmissionMainContainer .top h3 {
+        font-size: 20px;
+    }
+    #classSubmissionMain .classSubmissionMainContainer .top h4 {
+        width: 220px;
+        font-size: 13px;
+    }
+    #classSubmissionMain .classSubmissionMainContainer .top p {
+        margin-top: 16px;
+        font-size: 14px;
+        width: 100%;
+        line-height: 23px;
+    }
+    #classSubmissionMain .classSubmissionMainContainer .video_submission .video-js {
+        width: 100%;
+        height: 200px;
+        border-radius: 10px;
+    }
+    #classSubmissionMain .classSubmissionMainContainer .submission_file_assignment .top h3 {
+        width: 257px;
+        font-size: 14px;
+    }
+    #classSubmissionMain .classSubmissionMainContainer .submission_file_assignment .info_after_upload .upload_item h4 {
+        font-size: 11px;
+    }
+    #classSubmissionMain .classSubmissionMainContainer .submission_file_assignment .info_after_upload .upload_item h4 img {
+        margin-right: 5px;
+        height: 19px;
+    }
+    #classSubmissionMain .classSubmissionMainContainer .submission_file_assignment .file_upload_btn button {
+        font-size: 11px;
+        padding: 9px 20px 14px 20px;
+        margin: 0px 5px;
+    }
+    #classSubmissionMain .classSubmissionMainContainer .submission_file_assignment .file_upload_btn button#submit_file {
+        padding: 14px 18px 17px 18px;
+    }
+    #classSubmissionMain {
+        padding: 10px 0px;
+    }
+    /*-- submission feedback --*/
+    #classSubmissionMain .classSubmissionMainContainer .submission_file_assignment .mentor_feedback .mentor_feedback_video .video-js {
+        width: 100%;
+        height: 245px;
+    }
+    #classSubmissionMain .classSubmissionMainContainer .submission_file_assignment .mentor_feedback_quote {
+        margin-top: 40px;
+        width: 100%;
+        padding: 30px 20px;
+    }
+    #classSubmissionMain .classSubmissionMainContainer .submission_file_assignment .mentor_feedback_bottom {
+        width: 100%;
+        background: url(../img/shape/15.png);
+        padding: 20px;
+        background-size: cover;
+    }
+    #classSubmissionMain .classSubmissionMainContainer .submission_file_assignment .mentor_feedback_bottom a {
+        font-size: 10px;
+        padding: 11px 33px;
+        padding-bottom: 17px;
+        margin-top: 16px;
+    }
+    #classSubmissionMain .classSubmissionMainContainer .submission_file_assignment .mentor_feedback_bottom h3 {
+        font-size: 11px;
+        line-height: 23px;
+    }
+    #signUpPopup .signUpPopup_container .signUpPopup_tab_btn ul {
+        width: fit-content !important;
+    }
+
+    /*-- sing up popup --*/
+    #signUpPopup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #signUpPopup::-webkit-scrollbar {
+      display: none;
+    }
+    #signUpPopup::-moz-scrollbar {
+      display: none;
+    }
+    #signUpPopup::-o-scrollbar {
+      display: none;
+    }
+    #signUpPopup::-ms-scrollbar {
+      display: none;
+    }
+    /*-- otp auth popup --*/
+    #otp_popup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 40px;
+        padding-bottom: 50px;
+    }
+    #otp_popup::-webkit-scrollbar {
+      display: none;
+    }
+    #otp_popup::-moz-scrollbar {
+      display: none;
+    }
+    #otp_popup::-o-scrollbar {
+      display: none;
+    }
+    #otp_popup::-ms-scrollbar {
+      display: none;
+    }
+    /*-- signinConfirmation popup --*/
+    #signinConfirmation_popup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+        z-index: 99999999999999;
+    }
+    #signinConfirmation_popup::-webkit-scrollbar {
+      display: none;
+    }
+    #signinConfirmation_popup::-moz-scrollbar {
+      display: none;
+    }
+    #signinConfirmation_popup::-o-scrollbar {
+      display: none;
+    }
+    #signinConfirmation_popup::-ms-scrollbar {
+      display: none;
+    }
+    #bookClassPopup .bookClassPopupContainer {
+        width: 100%;
+    }
+    #bookClassInsufficant .bookClassInsufficantCotainer {
+        width: 100%;
+        padding: 21px 20px;
+    }
+    #singleMasterClassPageBanar .singleMasterClassPageBanarBottom .singleMasterClassPageBanarBottomContent .before_buy_class .book_btn ul{
+        display: flex;
+    }
+    #joinClassPopup .joinClassPopupContiner .bottom .link_box {
+        width: 100%;
+    }
+
+    /*-- signinConfirmation popup --*/
+    #joinClassPopup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 200px;
+        padding-bottom: 50px;
+    }
+    #joinClassPopup .joinClassPopupContiner {
+        width: 100%;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    #joinClassPopup::-webkit-scrollbar {
+      display: none;
+    }
+    #joinClassPopup::-moz-scrollbar {
+      display: none;
+    }
+    #joinClassPopup::-o-scrollbar {
+      display: none;
+    }
+    #joinClassPopup::-ms-scrollbar {
+      display: none;
+    }
+    /*-- badgePopup popup --*/
+    #badgePopup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #badgePopup .badgePopupContainer {
+        width: 100%;
+    }
+    #badgePopup::-webkit-scrollbar {
+      display: none;
+    }
+    #badgePopup::-moz-scrollbar {
+      display: none;
+    }
+    #badgePopup::-o-scrollbar {
+      display: none;
+    }
+    #badgePopup::-ms-scrollbar {
+      display: none;
+    }
+    #submission_success .submission_success_container {
+        width: 95%;
+        padding: 50px 10px;
+    }
+    #submission_success .submission_success_container .content h4 {
+        font-size: 12px;
+    }
+    #submission_success{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #submission_success::-webkit-scrollbar {
+      display: none;
+    }
+    #submission_success::-moz-scrollbar {
+      display: none;
+    }
+    #submission_success::-o-scrollbar {
+      display: none;
+    }
+    #submission_success::-ms-scrollbar {
+      display: none;
+    }
+    #submission_error{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 150px;
+        padding-bottom: 50px;
+    }
+    #submission_error::-webkit-scrollbar {
+      display: none;
+    }
+    #submission_error::-moz-scrollbar {
+      display: none;
+    }
+    #submission_error::-o-scrollbar {
+      display: none;
+    }
+    #submission_error::-ms-scrollbar {
+      display: none;
+    }
+    #submission_error .submission_errorContainer {
+        width: 95%;
+        padding: 50px 10px;
+    }
+    #submission_error .submission_errorContainer .content h3 {
+        font-size: 12px;
+    }
+    #submission_error .submission_errorContainer .content ul {
+        display: flex;
+        align-items: center;
+        vertical-align: middle;
+        justify-content: center;
+    }
+    #submission_error .submission_errorContainer .content ul li a {
+        display: inline-block;
+        padding: 12px 10px 14px 10px;
+        font-size: 9px;
+        margin: 0px 5px;
+    }
+    #earndPointPopup{
+        overflow-y: scroll;
+        max-height: 100vh;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+    #earndPointPopup::-webkit-scrollbar {
+      display: none;
+    }
+    #earndPointPopup::-moz-scrollbar {
+      display: none;
+    }
+    #earndPointPopup::-o-scrollbar {
+      display: none;
+    }
+    #earndPointPopup::-ms-scrollbar {
+      display: none;
+    }
+    #earndPointPopup .earndPointPopupContainer {
+        width: 97%;
+        padding: 50px 20px 10px 20px;
+    }
+    #earndPointPopup .earndPointPopupContainer .earndPointPopupMain {
+        margin-top: 20px;
+        width: 100%;
+    }
+    #earndPointPopup .earndPointPopupContainer .earndPointPopupMain .item {
+        margin-left: 0px;
+    }
+    #earndPointPopup .earndPointPopupContainer .earndPointPopupMain ul {
+        padding-left: 0px;
+        margin-bottom: 0px;
+    }
+#whatStudentCreate .whatStudentCreateSlider .slick-next {
+        position: absolute;
+        bottom: 77px;
+        right: 7%;
+        height: 34px;
+        width: 34px;
+        background: #F6F6F6;
+        border-radius: 50%;
+        border: none;
+        z-index: 9999999;
+        outline: none;
+        font-size: 23px;
+        transition: 0.4s;
+    }
+    #whatStudentCreate .whatStudentCreateSlider .slick-prev {
+        position: absolute;
+        bottom: 77px;
+        height: 34px;
+        width: 34px;
+        background: #F6F6F6;
+        border-radius: 50%;
+        border: none;
+        z-index: 9999999;
+        outline: none;
+        font-size: 23px;
+        transition: 0.4s;
+        left: 7%;
+    }
+    #whatStudentCreate .whatStudentCreateSlider .whatStudentCreateSliderItem.slick-current.slick-active.slick-center:after {
+        border: 8px solid #000;
+    }
+    #whatStudentCreate .whatStudentCreateSlider .whatStudentCreateSliderItem video {
+       transform: scale(1.1);
+    }
+    #programpPagebanar {
+        padding: 20px 0px;
+        background: #FFFFFF;
+        border-bottom: 2px solid #ddd;
+    }
+    #programpPagebanar .content h3 {
+        font-size: 27px;
+    }
+    #programpPagebanar .content p {
+        font-size: 12px;
+        margin: 0 auto;
+        margin-top: 25px;
+        width: 100%;
+        line-height: 21px;
+    }
+    #programpPagebanar .content a {
+        padding: 7px 0px;
+        padding-bottom: 15px;
+        font-size: 14px;
+        width: 100%;
+    }
+    #progrsamMainPageContent .item .image .title h3 {
+        font-size: 18px;
+    }
+    #progrsamMainPageContent .item .image .title {
+        padding: 0px 20px;
+    }
+    #progrsamMainPageContent .item .content h4 {
+        font-size: 11px;
+    }
+    #progrsamMainPageContent .item .content h3 {
+        font-size: 15px;
+    }
+    #progrsamMainPageContent .item .content a {
+        right: 10px;
+        font-size: 22px;
+    }
+    #progrsamMainPageContent .buttonArea a {
+        padding: 11px 0px;
+        padding-bottom: 17px;
+        width: 100%;
+        font-size: 13px;
+        margin: 12px 0px;
+    }
+    #progrsamMainPageContent .buttonArea {
+        margin-top: 10px;
+    }
+    #progrsamMainPageContent {
+        padding: 50px 0px 100px 0px;
+    }
+    #mainPogramDetailsBanar .mainContent {
+        text-align: center;
+    }
+    #mainPogramDetailsBanar .mainContent .left{
+        margin-top: 20px;
+    }
+    #mainPogramDetailsBanar .mainContent .left h3 {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    #mainPogramDetailsBanar .mainContent .left a {
+        border: 1px solid #FF3A58;
+        width: auto;
+        font-family: gc;
+        height: auto;
+        line-height: inherit !important;
+        font-size: 11px;
+        display: inline-block;
+        color: #FF3A58;
+        text-align: center;
+        border-radius: 5px;
+        margin-right: 0px;
+        margin: 0px 4px;
+        padding: 10px 17px;
+    }
+    #programDetailsLearn .top h3 {
+        font-size: 19px;
+    }
+    #programDetailsLearn .top ul li {
+        display: inline-block;
+        border: 1px solid #8AB7C0;
+        background: #fff;
+        padding: 6px 12px;
+        font-size: 11px;
+        border-radius: 30px;
+        font-weight: 500;
+        margin-bottom: 6px;
+        margin-right: 0px;
+    }
+    #programDetailsLearn .middle ul li img {
+        height: 47px;
+    }
+    #programDetailsLearn .middle ul li {
+        margin-bottom: 10px;
+    }
+    #programDetailsLearn .bottom ul li {
+        display: inline-block;
+        border: 1px solid #8AB7C0;
+        background: #fff;
+        padding: 6px 12px;
+        font-size: 11px;
+        border-radius: 30px;
+        font-weight: 500;
+        margin-bottom: 6px;
+        margin-right: 0px;
+    }
+    #programsBenifit .title p {
+        font-size: 14px;
+        width: 100%;
+    }
+    #memberShipPlanSection .topDrop h3 {
+        font-size: 21px;
+        color: #34333D;
+    }
+    #memberShipPlanSection .topDrop .dropdown button {
+        width: 252px;
+    }
+    #parrentsFeedback .title h3 {
+        font-size: 18px;
+    }
+    #parrentsFeedback .parrentsFeedbackMain .parrentsFeedbackMainSlider .parrentsFeedbackItem .left {
+        padding: 26px 15px;
+    }
+    #parrentsFeedback .parrentsFeedbackMain .parrentsFeedbackMainSlider .parrentsFeedbackItem .left p {
+        font-size: 12px;
+        line-height: 22px;
+        margin-bottom: 19px;
+        padding-left: 20px;
+    }
+    #parrentsFeedback .parrentsFeedbackMain .parrentsFeedbackMainSlider .parrentsFeedbackItem .left h5 {
+        font-size: 11px;
+    }
+    #parrentsFeedback .parrentsFeedbackMain .parrentsFeedbackMainSlider .owl-nav .owl-prev {
+        left: -10px;
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+    }
+    #parrentsFeedback .parrentsFeedbackMain .parrentsFeedbackMainSlider .owl-nav .owl-next {
+        right: -10px;
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+    }
+    #programDetailsLearn {
+        padding: 50px 0px 50px 0px;
+    }
+    #programsBenifit {
+        padding: 0px 0px 50px 0px;
+    }
+    #memberShipPlanSection {
+        padding: 0px 0px 50px 0px;
+    }
+    #singleProgramsPageBanar .banar_content h3 {
+        font-size: 22px;
+    }
+    #singleProgramsPageBanar .banar_content p {
+        font-size: 15px;
+        margin-top: 14px;
+        width: 100%;
+    }
+    #singleProgramsPageBanar {
+        padding: 40px 0px 50px 0px;
+    }
+    #programMainprogrmaBanar .content .top {
+        padding: 20px 20px;
+        border-radius: 0px;
+    }
+    #programMainprogrmaBanar .content .top .left h4 {
+        font-size: 12px;
+    }
+    #programMainprogrmaBanar .content .top .right h4 {
+        font-size: 12px;
+        text-align: left;
+        margin-top: 5px;
+    }
+    #programMainprogrmaBanar .content .top .bottomPart .item {
+        margin-bottom: 9px;
+    }
+    #programMainprogrmaBanar .content .top .bottomPart .item h4 {
+        font-size: 12px;
+    }
+    .comon_bred_come ul li {
+        font-size: 14px;
+    }
+    #programMainprogrmaBanar .content .performance {
+        padding: 20px;
+        border-radius: 0px;
+        margin-top: 23px;
+    }
+    #programMainprogrmaBanar .content .gettigStated .gettigStatedItem {
+        padding: 20px;
+        border-radius: 0px;
+        margin-bottom: 20px;
+    }
+    #programMainprogrmaBanar .content .gettigStated .gettigStatedItem .left p {
+        font-size: 13px;
+    }
+    #programMainprogrmaBanar .content .gettigStated .gettigStatedItem .right{
+        text-align: left !important;
+        margin-top: 30px; 
+    }
+    #programMainprogrmaBanar .content .gettigStated .gettigStatedItem .right a {
+        background: #FF3A58;
+        color: #fff;
+        font-family: gc;
+        font-size: 12px;
+        padding: 14px 0px 16px 0px;
+        border-radius: 5px;
+        display: block;
+        text-align: center;
+    }
+    #classScheduleArea .classScheduleAreaMain #accordion .classScheduleItem .card-header a span {
+        margin-left: 0px;
+        display: block;
+    }
+    #classScheduleArea .classScheduleAreaMain #accordion .classScheduleItem .card-header {
+        padding: 15px 15px;
+    }
+
+    #classScheduleArea .classScheduleAreaMain #accordion .classScheduleItem .classSceduleContent .item .left ul li span {
+        float: inherit;
+        width: auto;
+        font-size: 12px;
+        margin-top: 4px;
+    }
+    #classScheduleArea .classScheduleAreaMain #accordion .classScheduleItem .classSceduleContent .item {
+        border-bottom: 1px solid #EDEFF0;
+        padding: 10px 0px;
+    }
+    #classScheduleArea .classScheduleAreaMain #accordion .classScheduleItem .classSceduleContent .item .right{
+        position: relative;
+    }
+    #classScheduleArea .classScheduleAreaMain #accordion .classScheduleItem .classSceduleContent .item .right ul li a {
+        margin-left: 0px;
+        min-width: auto;
+        position: relative;
+        top: 10px;
+    }
+    .statusinfo{
+        height:14px;
+        width: 14px;
+        border-radius: 50%;
+        position: absolute;
+        top: 15px;
+        right: 35px;
+    }
+    .pre{
+        background: #44E56B;
+    }
+    .pen{
+        background: #FDBC14;
+    }
+    .upc{
+        background: #555555;
+    }
+    #classScheduleArea .classScheduleAreaMain #accordion .classScheduleItem .classSceduleContent .item .left ul li {
+        font-size: 13px;
+    }
+    #classScheduleArea .classScheduleAreaMain #accordion .classScheduleItem .card-header .completeStatus {
+        right: 57px;
+    }
+    #classScheduleArea .classScheduleAreaMain #accordion .classScheduleItem .card-header:after {
+        right: 13px;
+        font-size: 18px;
+    }
+    #classScheduleArea {
+        overflow-x: hidden;
+    }
+
+    #classScheduleArea .classScheduleAreaMain #accordion .classScheduleItem {
+        border-radius: 0px;
+    }
+    #programsProject .programsProjectMain .programsProjectMainSlider .programsProjectMainSliderItem img {
+        width: 100%;
+    }
+    .programsProjectMainSlider .owl-stage{
+        padding-left: 0px !important;
+    }
+    #programMainprogrmaBanar {
+        padding: 30px 0px 50px 0px;
+    }
+    #programMainprogrmaBanar .content .performance .pergoals ul li {
+        padding: 5px 50px 5px 5px;
+        font-size: 12px;
+    }
+    #programMainprogrmaBanar .content .performance .pergoals ul li img {
+        margin-right: 10px;
+        height: 36px;
+    }
+    .badgeMobileSlider .owl-stage{
+        padding-left: 0px !important;
+    }
+    #programMainprogrmaBanar .content .performance .perBadge ul li img{
+        width: auto !important;
+        display: inherit !important;
+        margin-right: 5px;
+    }
+    #programMainprogrmaBanar .content .performance .perBadge ul li {
+        padding: 7px 30px 5px 7px;
+        font-size: 11px;
+        margin-right: 0px;
+        width: 100%;
+    }
+    #programMainprogrmaBanar .content .performance .perSkills ul li {
+        padding: 5px 50px 5px 5px;
+        font-size: 12px;
+    }
+    #programMainprogrmaBanar .content .performance .perSkills ul li img {
+        margin-right: 10px;
+        height: 36px;
+    }
+    .skillMobileSlider .owl-stage{
+        padding-left: 0px !important;
+    }
+    #programMainprogrmaBanar .content .performance .perSkills ul li img{
+        width: auto !important;
+        display: inherit !important;
+        margin-right: 5px;
+    }
+    #programMainprogrmaBanar .content .performance .perSkills ul li {
+        padding: 7px 30px 5px 7px;
+        font-size: 11px;
+        margin-right: 0px;
+        width: 100%;
+    }
+    .hide_mobile{
+        display: none;
+    }
+    #classDetailsNewHeader .right .profile {
+        padding-left: 0px;
+        width: 90%;
+        margin-top: 18px;
+    }
+    #programsClassDetails .mainContainer {
+        padding: 20px 30px;
+    }
+    #programsClassDetails .mainContainer .top h4 {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    #programsClassDetails .mainContainer .botom .item .content h4 {
+        font-size: 13px;
+    }
+    #classDetailsNewHeader .left h3 {
+        font-size: 15px;
+    }
+    #programsClassDetails .mainContainer .botom .item {
+        margin-bottom: 20px;
+    }
+    #classReadyModal .classReadyContent .top p {
+        font-weight: 500;
+        font-size: 14px;
+        width: 100%;
+    }
+    #classReadyModal .classReadyContent .itemContainer .item .content h4 {
+        font-weight: 700;
+        font-size: 14px;
+    }
+    #classReadyModal .classReadyContent .itemContainer .item .content p {
+        font-size: 12px;
+    }
+
+    #sceenHeader .sceenHeaderLeft {
+        width: 100% !important;
+    }
+
+    #sceenHeader .sceenHeaderLeft button {
+        width: 100%;
+    }
+    #sceenHeader .sceenHeaderLeft button {
+        position: relative !important;
+        background: transparent;
+        border: none;
+        width: 450px;
+        text-align: left;
+        outline: none;
+        padding: 0px;
+        border-radius: 0px;
+    }
+    #sceenHeader .sceenHeaderLeft button:after{
+        display: none;
+    }
+    #sceenHeader .sceenHeaderLeft .dropdown-menu {
+        width: 300px;
+    }
+    #classScreenMain {
+        padding: 20px 0px;
+    }
+    #classScreenMain .classScreenMainContainer {
+        padding: 20px;
+        border-radius: 11px;
+        box-shadow: 0px 0px 4px rgba(0,0,0,0.1);
+    }
+    #sceenHeader .sceenHeaderRight .dropdown-menu .skillDrop ul li {
+        display: inline-block;
+        margin-right: 5px;
+    }
+    #sceenHeader .sceenHeaderRight .dropdown-menu .skillDrop ul {
+        margin-top: 11px;
+    }
+    #sceenHeader .sceenHeaderRight .dropdown-menu .bandgeDrop ul{
+        margin-top: 11px;
+    }
+    #sceenHeader .sceenHeaderRight .dropdown-menu .bandgeDrop ul li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    #classScreenMain .classScreenMainContainer .subtitle {
+        font-size: 21px;
+    }
+    .scree3Content .top {
+        width: 100%;
+    }
+    .scree3Content .selectBox {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .scree3Content .selectBox ul li {
+        width: 100%;
+    }
+    #classScreenMain .classScreenMainContainer .nextPrevBtn ul {
+        text-align: center !important;
+    }
+    .cbtn_nextPrev.text-right {
+        text-align: center !important;
+        margin-top: 30px;
+    }
+    #classScreenMain .classScreenMainContainer .nextPrevBtn ul li {
+        margin-left: 0px;
+        margin: 0px 12px;
+    }
+    #classScreenMain .classScreenMainContainer .nextPrevBtn .cbtn_nextPrev a {
+        padding: 10px 0px;
+        padding-bottom: 15px;
+        display: block;
+    }
+    .scree4Content .top {
+        width: 100%;
+    }
+    .scree4Content .afterFileUpload {
+        width: 100%;
+    }
+    .scree4Content .actiosBtn ul li a {
+        display: block;
+        width: 124px;
+        background: #8AE241;
+        border-radius: 5px;
+        padding: 10px 0px;
+        text-align: center;
+        font-family: gc;
+        font-size: 11px;
+        color: #fff;
+        margin: 0px 3px;
+    }
+    .scree4Content .actiosBtn {
+        margin-top: 60px;
+        min-height: 100px;
+    }
+
+    .scree5Content .top {
+        margin-top: 4px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .scree5Content .main_content {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .scree5Content .main_content textarea {
+        height: 200px;
+        width: 100%;
+        padding: 13px 12px;
+        font-size: 14px;
+    }
+    .screen6Content .contentScreen6 {
+        width: 100%;
+    }
+    .scree11Content .top {
+        width: 100%;
+    }
+    .scree11Content .quizContainer {
+        width: 100%;
+        margin-top: 40px;
+    }
+    .scree11Content .quizContainer .quizItem h4 input {
+        margin-left: 0px;
+        width: 100%;
+        font-size: 14px;
+        padding: 10px 15px;
+        margin-top: 15px;
+    }
+    #assignmentSubmission .modal-body h4 {
+        font-size: 12px;
+    }
+    #assignmentSubmission .modal-body ul li a {
+        font-size: 9px;
+        padding: 7px 21px;
+        margin: 0px 3px;
+    }
+    #assignmentSubmission .modal-body ul {
+        margin-top: 23px;
+    }
+    #assignmentSubmission .modal-body img {
+        margin-bottom: 20px;
+        height: 42px;
+    }
+    #profilePageTopArea .profileInfoTop .profileInfoInfo {
+        left: 0px;
+        top: 0px;
+        text-align: center;
+        margin-top: 40px;
+        padding-bottom: 26px;
+        padding-left: 15px;
+    }
+    #profilePageTopArea .profileInfoTop .profileInfoInfo h4 {
+        font-size: 19px;
+    }
+    #profilePageTopArea .profileInfoTop .profileInfoImage label {
+        right: 114px;
+    }
+    #profilePageTopArea .profileInfoTop {
+        padding: 19px 0px 0px 0px;
+    }
+    #profilePageMainContent .leftPanel {
+        padding: 30px 20px;
+        margin-bottom: 30px;
+    }
+    #profilePageMainContent .leftPanel .aboutUser p {
+        margin-top: 5px;
+        font-size: 13px;
+    }
+    #profilePageMainContent .leftPanel .info ul li {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    #profilePageMainContent .leftPanel .info ul li img {
+        margin-right: 7px;
+        height: 22px;
+    }
+    #profilePageMainContent .rightPanel .goalsProfileSlider .goalsProfileSliderActive .goalsProfileSliderItem .content h4 {
+        font-size: 11px;
+    }
+    #profilePageMainContent .rightPanel .goalsProfileSlider .goalsProfileSliderActive .goalsProfileSliderItem .content .fillbar {
+        width: 86%;
+    }
+    #profilePageMainContent .rightPanel .goalsProfileSlider .goalsProfileSliderActive .owl-nav .owl-next {
+        height: 30px;
+        width: 30px;
+        right: -14px;
+        line-height: 30px;
+        font-size: 17px;
+    }
+    #profilePageMainContent .rightPanel .goalsProfileSlider .goalsProfileSliderActive .owl-nav .owl-prev {
+        height: 30px;
+        width: 30px;
+        left: -14px;
+        line-height: 30px;
+        font-size: 17px;
+    }
+    #profilePageMainContent .rightPanel .profileBadge .profileBadgeSlider .profileBadgeSliderActive .profileBadgeSliderItem img {
+        height: 75px;
+    }
+    #profilePageMainContent .rightPanel .profileBadge .profileBadgeSlider .profileBadgeSliderActive .profileBadgeSliderItem p {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+    #profilePageMainContent .rightPanel .profileBadge .profileBadgeSlider .profileBadgeSliderActive .owl-nav .owl-next{
+        height: 30px;
+        width: 30px;
+        right: 0px;
+        line-height: 30px;
+        font-size: 17px;
+    }
+    #profilePageMainContent .rightPanel .profileBadge .profileBadgeSlider .profileBadgeSliderActive .owl-nav .owl-prev{
+        height: 30px;
+        width: 30px;
+        left: 0px;
+        line-height: 30px;
+        font-size: 17px;
+    }
+    #profilePageMainContent .rightPanel .goalsProfileSlider > h4 {
+        width: 122px;
+        font-size: 14px;
+        padding: 8px 0px 15px 0px;
+    }
+    #profilePageMainContent .rightPanel .profileBadge > h4 {
+        width: 121px;
+        font-size: 14px;
+        padding: 13px 0px 20px 0px;
+    }
+    #profilePageMainContent .rightPanel .profielSkill > h4 {
+        width: 96px;
+        font-size: 14px;
+    }
+    #profilePageMainContent .rightPanel .profielSkill ul li {
+        font-size: 9px;
+        padding: 4px 19px 4px 5px;
+        margin-bottom: 12px;
+    }
+    #profilePageMainContent .rightPanel .profileCertificate > h4 {
+        width: 165px;
+        font-size: 15px;
+    }
+    #profilePageMainContent .rightPanel .profilePortfolio > h4 {
+        width: 134px;
+        font-size: 14px;
+    }
+    #profilePageMainContent .rightPanel .profilePortfolio .content .profilePortfolioItem .itemContent h4 {
+        font-size: 15px;
+        width: 100%;
+        line-height: 20px;
+    }
+    #profilePageMainContent .rightPanel .profielSkill ul li img {
+        margin-right: 3px;
+        height: 27px;
+    }
+    #portfolioDetailsPage .portfolioDetailsPageContainer .topTitle h4 {
+        font-size: 17px;
+    }
+    #portfolioDetailsPage .portfolioDetailsPageContainer .problemStateMent p {
+        font-size: 12px;
+        width: 100%;
+    }
+    #portfolioDetailsPage .portfolioDetailsPageContainer .problemStateMent {
+        margin-top: 50px;
+    }
+    #portfolioDetailsPage .portfolioDetailsPageContainer .portfolioDetailsBread ul li {
+        font-size: 12px;
+    }
+    #myClassTabTop .tabMainBtnMyClass ul li a {
+        font-size: 13px;
+    }
+    #myClassTabTop {
+        padding: 10px 0px 0px 0px;
+    }
+    #myClassTabTop .tabMainBtnMyClass ul li a .infoClassNumber {
+        width: 18px;
+        height: 18px;
+        top: -9px;
+        font-size: 9px;
+        line-height: 14px;
+    }
+    #myClassTabManContet .myClssTabConteent .todayClass > h4 {
+        width: 115px;
+        font-size: 14px;
+        padding: 10px 0px 16px 0px;
+    }
+    #myClassTabManContet .myClssTabConteent .todayClass .classMainContent .todayClassItem .content .content_right h5 {
+        font-size: 10px;
+    }
+    #myClassTabManContet .myClssTabConteent .upcomingCLass .upcomingCLassSlide .upcomingCLassSliderItem .content .content_right h5 {
+        font-size: 10px;
+    }
+    #myClassTabManContet .myClssTabConteent .pastClassMyclass .pastClassMyclassMainContent .pastClassMyclassItem .content .content_right h5 {
+        font-size: 10px;
+    }
+    #myClassTabManContet .myClssTabConteent .upcomingCLass > h4 {
+        
+        width: 228px;
+        padding: 9px 0px 23px 0px;
+        background-size: contain;
+    }
+    #myClassTabManContet .myClssTabConteent .upcomingCLass .upcomingCLassSlide .owl-nav .owl-next {
+        height: 40px;
+        width: 40px;
+        right: -10px;
+        line-height: 40px;
+        font-size: 20px;
+    }
+    #myClassTabManContet .myClssTabConteent .upcomingCLass .upcomingCLassSlide .owl-nav .owl-prev {
+        height: 40px;
+        width: 40px;
+        left: -10px;
+        line-height: 40px;
+        font-size: 20px;
+    }
+    #myClassTabTop .breadComeMyClass ul li {
+        font-size: 13px;
+    }
+    #myClassTabManContet .myClssTabConteent .todayClass .classMainContent .todayClassItem .image .info h5 {
+        font-size: 10px;
+    }
+    #myClassTabManContet .myClssTabConteent .todayClass .classMainContent .todayClassItem .image .info h3 {
+        font-size: 20px;
+        margin-top: 10px;
+        line-height: 17px;
+    }
+    #myClassTabManContet .myClssTabConteent .upcomingCLass .upcomingCLassSlide .upcomingCLassSliderItem .image .info h5{
+        font-size: 10px;
+    }
+    #myClassTabManContet .myClssTabConteent .upcomingCLass .upcomingCLassSlide .upcomingCLassSliderItem .image .info h3{
+        font-size: 20px;
+        margin-top: 10px;
+        line-height: 28px;
+    }
+    #myClassTabManContet .myClssTabConteent .pastClassMyclass .pastClassMyclassMainContent .pastClassMyclassItem .image .info h5{
+        font-size: 10px;
+    }
+    #myClassTabManContet .myClssTabConteent .pastClassMyclass .pastClassMyclassMainContent .pastClassMyclassItem .image .info h3{
+        font-size: 20px;
+        margin-top: 10px;
+        line-height: 17px;
+    }
+    #accountSettingsMain .leftPanelSettings .settingsTabBtn ul {
+        display: flex;
+        justify-content: space-around;
+    }
+    #accountSettingsMain .leftPanelSettings .settingsTabBtn ul li a:after {
+        right: 0;
+        margin: auto;
+    }
+    #accountSettingsMain .leftPanelSettings .settingsTabBtn ul li a {
+        font-size: 11px;
+    }
+    #accountSettingsMain .rightPanelSettings .accountSettingsTabContent .myWalletTabContentTop .leftDate .input-group input {
+        max-width: 148px;
+        margin: 0px;
+    }
+    #accountSettingsMain .rightPanelSettings .accountSettingsTabContent .myWalletTabContentTop .leftDate .input-group .input-group-addon {
+        top: 50%;
+        right: 31px;
+    }
+    .datepicker {
+        top: 201px !important;
+        left: 12px !important;
+    }
+    #accountSettingsMain .rightPanelSettings .accountSettingsTabContent .myWalletTabContentTop .leftBtn{
+        margin-top: 20px;
+        text-align: center;
+    }
+    #accountSettingsMain .rightPanelSettings .accountSettingsTabContent .myWalletTabContentTop .rightInfo{
+        margin-top: 20px;
+    }
+    #accountSettingsMain .rightPanelSettings .accountSettingsTabContent .myWalletTable .table thead th {
+        font-size: 10px;
+    }
+    #accountSettingsMain .rightPanelSettings .accountSettingsTabContent .myWalletTable .table tbody tr .dateTime p {
+        font-size: 12px;
+        width: 114px;
+    }
+    #accountSettingsMain .rightPanelSettings .accountSettingsTabContent .myWalletTable .table tbody tr .titleTable p {
+        font-size: 12px;
+    }
+    #accountSettingsMain .rightPanelSettings .accountSettingsTabContent .myWalletTable .table tbody tr .ammount {
+        padding-left: 30px;
+        width: 134px;
+    }
+    #accountSettingsMain .rightPanelSettings .accountSettingsTabContent .myWalletTable .table tbody tr .ammount h4 {
+        font-weight: 700;
+        font-size: 13px;
+    }
+    #accountSettingsMain {
+        padding: 30px 0px;
+        background: #fff;
+    }
+    #accountSettingsMain .rightPanelSettings .settingsTabPlanDetails .top h3 {
+        font-size: 18px;
+        margin-top: 20px;
+        line-height: 26px;
+    }
+
+    #accountSettingsMain .rightPanelSettings .settingsTabPlanDetails .middle h3{
+        font-size: 18px;
+        margin-top: 20px;
+        line-height: 26px;
+    }
+    #accountSettingsMain .rightPanelSettings .settingsTabPersoanlDetails .topImage .imageBox label {
+        right: 95px;
+    }
+    #accountSettingsMain .rightPanelSettings .settingsTabPersoanlDetails .persoanDetailsMainForm .inputBox {
+        width: 100%;
+    }
+    #accountSettingsMain .rightPanelSettings .settingsTabPersoanlDetails .topImage .imageBox {
+        position: relative;
+        text-align: center;
+    }
+    #accountSettingsMain .rightPanelSettings .settingsTabPersoanlDetails .persoanDetailsMainForm .addChildrenBtn a {
+        border: 1px solid #FF3A58;
+        color: #FF3A58;
+        font-family: gc;
+        font-size: 13px;
+        background: transparent;
+        padding: 12px 0px 15px 0px;
+        border-radius: 4px;
+        box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.2);
+        transition: 0.4s;
+        display: block;
+        text-align: center;
+    }
+    #addhildrenMain .addChildrenContainer {
+        padding: 20px 10px;
+    }
+    #addhildrenMain .addChildrenContainer form .saveDetailsButton button {
+        padding: 12px 4px 15px 4px;
+        display: block;
+        width: 100%;
+    }
+    #addhildrenMain {
+        padding: 40px 0px;
+    }
+    #addhildrenMain .addChildrenContainer form .imageUserBoxChild label img {
+        width: 76%;
+    }
+    #merketingHomeBanar {
+        padding: 40px 0px;
+    }
+    #merketingHomeBanar .merketingHomeBanarContet h3 {
+        font-size: 21px;
+        width: 70%;
+        margin: 0 auto;
+        line-height: 34px;
+    }
+    #merketingHomeBanar .merketingHomeBanarContet p {
+        font-size: 12px;
+        margin-top: 15px;
+    }
+    #merketingHomeBanar .merketingHomeBanarContet a {
+        display: block;
+        font-size: 14px;
+        padding: 8px 0px 14px 0px;
+    }
+    #merketingHowItswork {
+        padding: 20px 0px 50px 0px;
+    }
+    #merketingHowItswork .titleTop h3 {
+        font-size: 24px;
+    }
+    #merketingHowItswork .realworldGoals {
+        margin-top: 15px;
+    }
+    #merketingHowItswork .realworldGoals .title h3 {
+        font-size: 16px;
+    }
+    #attendMasterClassArea .titleTop h3 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+#programingEarnBadge .topTitle h3 {
+    font-size: 16px;
+    width: 80%;
+    line-height: 26px;
+    margin: 0 auto;
+}
+#developeExpertise .titleTop h3 {
+    font-size: 16px;
+    width: 80%;
+    line-height: 26px;
+    margin: 0 auto;
+}
+#developeExpertise {
+    padding: 0px;
+}
+#getReadyForFuture {
+    padding: 40px 0px;
+}
+#whatStudentCreate {
+    padding: 0px 0px;
+}
+#whatStudentCreate.whatStudentCreate2 .title p {
+    margin-top: 20px;
+    width: 100%;
+    font-size: 14px;
+}
+#aboutPageBanar {
+    padding: 40px 0px;
+}
+#aboutPageBanar .aboutPageBanarContent h3 {
+    font-size: 25px;
+}
+#aboutPageBanar .aboutPageBanarContent p {
+    margin-top: 15px;
+    font-size: 13px;
+}
+#aboutPageMain .aboutPageMainContainer {
+    padding: 20px;
+}
+#aboutPageMain .aboutPageMainContainer #imagePatern{
+    display: none;
+}
+#aboutPageMain .aboutPageMainContainer .aboutPageMainItem1 h4 {
+    font-size: 17px;
+    line-height: 26px;
+}
+#aboutPageMain .aboutPageMainContainer .aboutPageMainItem1 p {
+    width: 100%;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 25px;
+}
+#aboutPageMain .aboutPageMainContainer .aboutPageMainItem2 h4{
+    font-size: 17px;
+    line-height: 26px;
+}
+#aboutPageMain .aboutPageMainContainer .aboutPageMainItem2 {
+    margin-top: 30px;
+}
+#aboutPageMain .aboutPageMainContainer .aboutPageMainItem2 p{
+    width: 100%;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 25px;
+}
+#aboutPageMain .aboutPageMainContainer .aboutPageMainItem3{
+    margin-top: 30px;
+}
+#aboutPageMain .aboutPageMainContainer .aboutPageMainItem3 p{
+    width: 100%;
+    margin-top: 20px;
+    font-size: 14px;
+    line-height: 25px;
+}
+#aboutPageAboutSlider .aboutPageAboutSliderActive .owl-nav .owl-next {
+    right: 0px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 19px;
+}
+#aboutPageAboutSlider .aboutPageAboutSliderActive .owl-nav .owl-prev {
+    left: 0px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    font-size: 19px;
+}
+#aboutPageAboutSlider .aboutActionBtn a {
+    display: block;
+    padding: 10px 0px 14px 0px;
+}
+#aboutPageAboutSlider {
+    padding: 50px 0px;
+}
+#aboutPageMentorSlider .aboutPageMentorSliderActive .owl-nav .owl-next {
+    right: 11px;
+}
+#aboutPageMentorSlider .aboutPageMentorSliderActive .owl-nav .owl-prev {
+    right: 11px;
+}
+#aboutPageMentorSlider .topTitle h3 {
+    font-size: 22px;
+}
+#joinRevulations .joinRevulationsContent h4 {
+    font-size: 21px;
+}
+#joinRevulations .joinRevulationsContent p {
+    margin-top: 21px;
+    font-size: 13px;
+    width: 100%;
+}
+#joinRevulations .joinRevulationsContent a {
+    padding: 10px 0px 14px 0px;
+    display: block;
+}
+#affiliateBanarArea {
+    padding: 40px 0px;
+    background: #FBFCF7;
+}
+#affiliateBanarArea .affiliateBanarAreaContent h3 {
+    font-size: 24px;
+}
+#affiliateBanarArea .affiliateBanarAreaContent p {
+    margin-top: 16px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 24px;
+}
+#affiliateBanarArea .affiliateBanarAreaContent a {
+    padding: 12px 0px 16px 0px;
+    display: block;
+}
+#affiliatePartnerMain .topTitle h3 {
+    font-size: 19px;
+}
+#affiliatePartnerMain .affiliatePartnerMainSlider .owl-nav .owl-next {
+    right: 0px;
+}
+#affiliatePartnerMain .affiliatePartnerMainSlider .owl-nav .owl-prev {
+    left: 0px;
+}
+#checkoutPage {
+    padding: 40px 0px;
+}
+#checkoutPage .checkoutPageContainer {
+    padding: 15px 20px 20px 20px;
+    width: 100%;
+}
+#checkoutConfirmation {
+    padding: 40px 0px;
+}
+#checkoutConfirmation .checkoutConfirmationContainer {
+    padding: 50px 30px 50px 30px;
+    width: 100%;
+}
+#faqPageBanar {
+    padding: 40px 0px;
+}
+#faqPageBanar .faqPageBanarContent p {
+    font-size: 13px;
+    width: 100%;
+}
+#faqPgeMainarea {
+    padding: 0px 0px 50px 0px;
+}
+#faqPgeMainarea .faqPageMainContent #accordion .faq_item .card-header a {
+    font-size: 13px;
+    width: 85%;
+    line-height: 23px;
+}
+#faqPgeMainarea .faqPageMainContent #accordion .faq_item .card-body p {
+    font-size: 13px;
+    width: 100%;
+    line-height: 23px;
+}
+#faqPgeMainarea .faqPageMainContent #accordion .faq_item .card-header:after {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    font-size: 11px;
+}
+#faqPgeMainarea .faqPageMainContent .allfaqActioBtn a {
+    padding: 12px 0px 16px 0px;
+    display: block;
+}
+#faqInfoQuoteBottom .faqInfoQuoteBottomContainer {
+    width: 100%;
+    background-size: contain;
+    padding: 20px 0px;
+    height: 87px;
+    background: transparent;
+}
+#faqInfoQuoteBottom .faqInfoQuoteBottomContainer h3 {
+    font-size: 14px;
+}
+#leaderBoardBanar {
+    padding: 19px 0px;
+    background: #FBFCF7;
+}
+#leaderboardMainContentArea {
+    background: #FBFCF7;
+}
+#leaderBoardBanar .leaderBoardBanarContent h3 {
+    font-size: 30px;
+}
+#leaderBoardBanar .leaderBoardBanarContent p {
+    margin-top: 22px;
+    width: 100%;
+    line-height: 25px;
+    font-size: 14px;
+}
+#leaderboardMainContentArea .leaderBoardTabBtnMain .nav li a {
+    font-size: 13px;
+    padding: 10px 28px 14px 28px;
+    margin: 0px 11px;
+}
+#leaderboardMainContentArea .leaderBoardTanMainContent .leaderboardItem {
+    box-shadow: 2px 2px 0px rgba(0, 0, 0, 0.1);
+    padding: 9px 10px;
+    background: #fff;
+}
+#leaderboardMainContentArea .leaderBoardTanMainContent .leaderboardItem .left h4 span {
+    height: 20px;
+    width: 20px;
+    font-size: 9px;
+    line-height: 17px;
+    margin-right: 5px;
+}
+#leaderboardMainContentArea .leaderBoardTanMainContent .leaderboardItem .left h4 img {
+    margin-right: 6px;
+    height: 32px;
+}
+#leaderboardMainContentArea .leaderBoardTanMainContent .leaderboardItem .left h4 {
+    font-size: 12px;
+}
+#leaderboardMainContentArea .leaderBoardTanMainContent .leaderboardItem .right h4 img {
+    margin-right: 0px;
+    height: 19px;
+}
+#leaderboardMainContentArea .leaderBoardTanMainContent .leaderboardItem .right h4 {
+    font-size: 10px;
+    font-weight: 600;
+}
+#leaderboardMainContentArea .leaderBoardTanMainContent .leaderboardSeeAllAction a {
+    padding: 10px 0px 13px 0px;
+    display: block;
+}
+#leaderboardMainContentArea .leaderBoardTanMainContent {
+    margin-top: 30px;
+}
+#reffaralBanar {
+    padding: 40px 0px;
+    background: #FBFCF7;
+}
+#reffaralBanar .reffaralBanarContent h3 {
+    font-size: 26px;
+}
+#reffaralBanar .reffaralBanarContent p {
+    margin-top: 22px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 25px;
+}
+#reffaralBanar .reffaralBanarContent a {
+    padding: 12px 0px 16px 0px;
+    display: block;
+}
+#whyRefferalPage .whyRefferalPageMain .whyRefferalPageMainContainer {
+    width: 100%;
+}
+#refferal1MainArea {
+    padding: 30px 0px;
+}
+#refferal1MainArea .refferal1MainAreaContiner {
+    padding: 18px 24px;
+    width: 100%;
+}
+#refferal1MainArea .refferal1MainAreaContiner h3 {
+    font-size: 19px;
+}
+#refferal1MainArea .refferal1MainAreaContiner .info p {
+    font-size: 13px;
+    line-height: 20px;
+}
+#teachRsbanar {
+    padding: 30px 0px;
+    background: #FBFCF7;
+}
+#teachRsbanar .teachRsbanarContent h3 {
+    font-size: 25px;
+}
+#teachRsbanar .teachRsbanarContent h3 {
+    font-size: 25px;
+    color: #264C55;
+}
+#teachRsbanar .teachRsbanarContent a {
+    padding: 12px 0px 16px 0px;
+    display: block;
+}
+#teachRsMaiArea .teachRtitleTop h3 {
+    font-size: 19px;
+}
+#teachRsMaiArea .teachRtitleTop p {
+    margin-top: 18px;
+    width: 100%;
+    font-size: 14px;
+    line-height: 23px;
+}
+#teachRsMaiArea .teachRsMaiAreaSlider .teachRsMaiAreaSliderActive .slick-next {
+    right: 0px;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    font-size: 17px;
+}
+#teachRsMaiArea .teachRsMaiAreaSlider .teachRsMaiAreaSliderActive .slick-prev {
+    left: 0px;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    font-size: 17px;
+}
+#teachRsMaiArea {
+    padding: 50px 0px 51px 0px;
+    background: #FBFCF7;
+}
+#testMonailBanar {
+    padding: 36px 0px 68px 0px;
+    background: #fff;
+    box-shadow: 0px 1px 4px rgba(0,0,0,0.1);
+}
+#testMonailBanar .testMonailBanarContent h3 {
+    font-size: 20px;
+}
+#testMonailBanar .testMonailBanarContent h4 {
+    font-size: 20px;
+    margin-top: 7px;
+}
+#testMonailBanar .testMonailBanarContent p {
+    margin: 0 auto;
+    margin-top: 15px;
+    font-weight: 500;
+    width: 100%;
+    font-size: 12px;
+}
+#testmonilPageMainContent .testmonilPageMainContentItem {
+    padding: 17px 25px 36px 20px;
+}
+#testmonilPageMainContent .testmonilPageMainContentItem p {
+    font-size: 13px;
+    line-height: 23px;
+}
+#testmonilPageMainContent .loadMoreactionbtn a {
+    padding: 10px 0px 14px 0px;
+    display: block;
+}
+#testmonilPageMainContent .loadMoreactionbtn {
+    margin-top: 40px;
+}
+#testmonilPageMainContent {
+    padding: 50px 0px 59px 0px;
+}
+#testMonailBanar #testmonialBanarShape{
+    display: none;
+}
+#whatStudentCreate.whatStudentCreate3 {
+    background: #FBFCF7;
+}
+#realTvBottomArea {
+    padding: 40px 0px;
+}
+#realTvBottomArea .realTvBottomAreaContent a {
+    margin-top: 15px;
+    display: block;
+    padding: 12px 0px 16px 0px;
+}
+#faqPageBanar #faqpageBanarShape{
+    display: none;
+}
+#teachRsbanar .teachRsbanarContent p {
+    margin-top: 22px;
+    width: 100%;
+    font-size: 14px;
+}
+#teachRsMaiArea .teachRsMaiAreaSlider .teachRsMaiAreaSliderActive .teachRsMaiAreaSliderItem .imageBox > img {
+    width: 100%;
+}
+#aboutPageMentorSlider.aboutPageMentorSlider2 {
+    background: #FBFCF7;
+}
+#affiliatePartnerMain {
+    background: #FBFCF7;
+}
+#refferelMainArea {
+    background: #FBFCF7;
+}
+#whyRefferalPage {
+    background: #FBFCF7;
+}
+#aboutPageMain .aboutPageMainContainer {
+    padding: 0px;
+    background: #FBFCF7;
+    box-shadow: none;
+}
+#joinRevulations {
+    padding: 0px 0px 70px 0px;
+    background: #FBFCF7;
+}
+#submitVideoModal .submitVideoModalContent form .attchVideo label {
+    display: block;
+    width: 100%;
+}
+#submitVideoModal .submitVideoModalContent {
+    padding: 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+/*-- custom file --*/
+@media screen and (min-width: 320px) and (max-width: 346px) {
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
