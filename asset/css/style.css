@@ -7544,10 +7544,11 @@ Start merketing project all new css
         #teachRsMaiArea .teachRsMaiAreaSlider .teachRsMaiAreaSliderActive .teachRsMaiAreaSliderItem .imageBox {
           position: relative;
           border: 1px solid #ddd;
-          box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
           border-radius: 7px 7px 0px 0px; }
           #teachRsMaiArea .teachRsMaiAreaSlider .teachRsMaiAreaSliderActive .teachRsMaiAreaSliderItem .imageBox > img {
-            border-radius: 7px; }
+            border-radius: 7px;
+            height: 210px;
+            filter: grayscale(100); }
         #teachRsMaiArea .teachRsMaiAreaSlider .teachRsMaiAreaSliderActive .teachRsMaiAreaSliderItem .btnAction {
           transition: 0.4s;
           opacity: 0;
@@ -7556,16 +7557,18 @@ Start merketing project all new css
             display: block;
             width: 100%;
             margin: 0 auto;
-            padding: 10px 15px 14px 15px;
+            padding: 12px 15px 15px 15px;
             border-radius: 0px 0px 5px 5px;
             font-family: gc;
-            font-size: 11px;
+            font-size: 13px;
             border: 1px solid #ddd;
             margin-top: -4px;
             background: #fff;
             z-index: 99999;
-            text-align: left;
-            position: relative; }
+            text-align: center;
+            position: relative;
+            color: #FF3A58;
+            border-top: none; }
             #teachRsMaiArea .teachRsMaiAreaSlider .teachRsMaiAreaSliderActive .teachRsMaiAreaSliderItem .btnAction a span {
               display: block;
               float: right; }
@@ -7575,6 +7578,8 @@ Start merketing project all new css
               color: #fff; }
       #teachRsMaiArea .teachRsMaiAreaSlider .teachRsMaiAreaSliderActive .teachRsMaiAreaSliderItem.slick-center {
         transform: scale(1.1); }
+        #teachRsMaiArea .teachRsMaiAreaSlider .teachRsMaiAreaSliderActive .teachRsMaiAreaSliderItem.slick-center .imageBox img {
+          filter: grayscale(0); }
         #teachRsMaiArea .teachRsMaiAreaSlider .teachRsMaiAreaSliderActive .teachRsMaiAreaSliderItem.slick-center .btnAction {
           opacity: 1;
           visibility: visible; }

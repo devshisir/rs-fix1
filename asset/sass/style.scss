@@ -9879,10 +9879,11 @@ Start merketing project all new css
                 .imageBox{
                     position: relative;
                     border: 1px solid #ddd;
-                    box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
                     border-radius: 7px 7px 0px 0px;
                     >img{
                         border-radius: 7px;
+                        height: 210px;
+                        filter: grayscale(100);
                     }
                 }
                 .btnAction{
@@ -9893,16 +9894,18 @@ Start merketing project all new css
                         display: block;
                         width: 100%;
                         margin: 0 auto;
-                        padding: 10px 15px 14px 15px;
+                        padding: 12px 15px 15px 15px;
                         border-radius: 0px 0px 5px 5px;
                         font-family: gc;
-                        font-size: 11px;
+                        font-size: 13px;
                         border: 1px solid #ddd;
                         margin-top: -4px;
                         background: #fff;
                         z-index: 99999;
-                        text-align: left;
+                        text-align: center;
                         position: relative;
+                        color: $mainColor;
+                        border-top: none;
                         span{
                             display: block;
                             float: right;
@@ -9917,6 +9920,11 @@ Start merketing project all new css
             }
             .teachRsMaiAreaSliderItem.slick-center{
                 transform: scale(1.1);
+                .imageBox{
+                    img{
+                        filter: grayscale(0);
+                    }
+                }
                 .btnAction{
                     opacity: 1;
                     visibility: visible;
